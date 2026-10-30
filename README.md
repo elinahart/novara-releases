@@ -6,7 +6,7 @@ NOVARA is a free desktop app that turns AI coding agents (Claude Code, Codex, Ge
 game studio: a coordinator splits your idea into tasks, agents write the code and make the assets,
 and you approve every model, image and sound before it goes into your game.
 
-[**⬇ Download for macOS**](https://github.com/elinahart/novara-releases/releases/latest) · Windows: coming soon · [Community themes and plugins](https://github.com/elinahart/novara-creations)
+[**🌐 Website**](https://elinahart.github.io/novara-releases/) · [**⬇ Download for macOS**](https://github.com/elinahart/novara-releases/releases/latest) · Windows: coming soon · [Community themes and plugins](https://github.com/elinahart/novara-creations)
 
 *Version française plus bas.*
 
