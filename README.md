@@ -160,12 +160,12 @@ Eight themes change the whole app — colours, icons, cursor, sounds and animate
   <img src="docs/img/theme-dorfic.jpg" alt="DORFic" width="215">
 </p>
 
-- **Mini-games:** click things in your town — the fountain, the hoop, the aquarium, a mystery block. One point, one coin.
+- **Mini-games:** click things in your town — the fountain, the hoop, the aquarium, a mystery block — for 12 relaxing pixel-art mini-games in your theme's colours. 30-second rounds, very easy, one point = one coin; an agent asking something pauses the game and your coins are kept.
 - **Things to unlock:** spend coins in the shop on buildings, characters, hats and pets; some hide behind secrets and old video-game codes.
 - **Your character:** a look, a hat and a pet that follows you around the town — yours alone, agents never get them. [Try it on the website.](https://elinahart.github.io/novara-releases/#maker)
 
 <p align="center">
-  <img src="docs/img/minigame.jpg" alt="Coin rain mini-game" width="295">
+  <img src="docs/img/minigame.jpg" alt="Goldfish mini-game in pixel art" width="295">
   <img src="docs/img/shop.jpg" alt="Shop" width="295">
   <img src="docs/img/char-looks.jpg" alt="Character creator" width="295">
 </p>
