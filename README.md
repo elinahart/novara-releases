@@ -1,88 +1,223 @@
-# NOVARA
+<p align="center">
+  <img src="docs/img/novara-icon.png" alt="NOVARA" width="112">
+</p>
 
-**Make video games with a team of AI agents — on your own computer.**
+<h1 align="center">NOVARA</h1>
 
-NOVARA is a free desktop app that turns AI coding agents (Claude Code, Codex, Gemini CLI) into a
-game studio: a coordinator splits your idea into tasks, agents write the code and make the assets,
-and you approve every model, image and sound before it goes into your game.
+<p align="center"><b>Make video games with a team of AI agents — on your own computer.</b><br>
+Free forever · no subscription · no account · macOS (Windows soon)</p>
 
-[**🌐 Website**](https://elinahart.github.io/novara-releases/) · [**⬇ Download for macOS**](https://github.com/elinahart/novara-releases/releases/latest) · Windows: coming soon · [Community themes and plugins](https://github.com/elinahart/novara-creations)
+<p align="center">
+  <a href="https://github.com/elinahart/novara-releases/releases/latest"><b>⬇ Download for macOS</b></a> ·
+  <a href="https://elinahart.github.io/novara-releases/"><b>🌐 Website</b></a> ·
+  <a href="https://github.com/elinahart/novara-creations"><b>🎨 Community creations</b></a> ·
+  <a href="https://ko-fi.com/K4B229QS15"><b>💜 Support on Ko-fi</b></a>
+</p>
 
-*Version française plus bas.*
+<p align="center"><img src="docs/img/hero-town.jpg" alt="Four AI agents working on a game in NOVARA's little town" width="900"></p>
 
-## What it does
+NOVARA turns AI coding agents — **Claude Code**, **Codex** and **Gemini CLI** — into a game studio.
+You describe your game in one sentence; a coordinator splits it into tasks and recruits agents for
+the code, the graphics, the sound and the tests; you approve every sprite, model and sound before it
+goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox Studio** and **Unity**.
 
-- **One sentence is enough**: describe your game, pick an engine — web 2D (Phaser), web 3D
-  (three.js), Roblox Studio or Unity — and the coordinator gets the team started.
-- **A team of agents**: up to 4 agents at once, each with roles (code, art, sound, tests…). They
-  reserve files before editing them and another agent checks each fix.
-- **You stay in charge**: every new 3D model, image or interface waits for your approval.
-- **Assets made on your computer**: Blender, Inkscape, Krita, GIMP, a local image generator
-  (ComfyUI) and NOVARA's own sound synthesiser (sound effects, looping music, ambiences). NOVARA
-  installs these tools for you, and checks each download against its publisher's fingerprint.
-- **Test in one click**: ▶ Test starts your game, on your computer or on your phone (QR code).
-- **Voice**: dictate to your agents; recognition runs on your computer.
-- **Your phone**: follow the agents and approve assets from your phone, over your own Wi-Fi.
-- **A town that is alive**: each agent has a house, the coordinator is the mayor. Click things
-  in the town to play mini-games, earn coins and unlock buildings, characters, hats and pets.
-- **Themes made by AI**: describe any universe and your AI creates a theme for the app, its
-  town and its wallpapers. Share it with the community.
-- **Plugins**: add themes, game templates and guides for the agents ([how to make one](https://github.com/elinahart/novara-creations/blob/main/docs/plugins.md)).
-- **English or French**: the app follows your computer's language (you can change it in
-  Settings › Appearance).
-- **Automatic updates**: each new version is signed; the signature is checked before anything is
-  installed.
-
-## What you need
-
-- A Mac with macOS 11 or later (Apple Silicon or Intel).
-- At least one AI agent account: a Claude subscription (Claude Code), a ChatGPT account (Codex)
-  or a Google account (Gemini CLI). NOVARA installs the agents; you sign in from the app. Agents
-  use your subscription or your tokens.
-
-## Install on macOS
-
-1. Download `NOVARA_<version>_macos.dmg` from [Releases](https://github.com/elinahart/novara-releases/releases/latest).
-2. Open it and drag **NOVARA** into **Applications**.
-3. The first time, macOS says it cannot check the app (NOVARA is not notarised by Apple).
-   Open **System Settings › Privacy & Security**, scroll down and click **Open Anyway** next to
-   NOVARA, then confirm. You only do this once.
-
-## Share your creations
-
-Themes and plugins made by the community live in
-[novara-creations](https://github.com/elinahart/novara-creations) and show up in the app under
-**Settings › Creations**.
+*Version française plus bas · [Site en français](https://elinahart.github.io/novara-releases/fr.html)*
 
 ---
 
-# NOVARA (français)
+## Contents
 
-**Crée des jeux vidéo avec une équipe d'agents IA, sur ton ordinateur.**
+[From one sentence to a game](#from-one-sentence-to-a-game) ·
+[A real team of agents](#a-real-team-of-agents) ·
+[You approve everything](#you-approve-everything) ·
+[Assets made on your computer](#assets-made-on-your-computer) ·
+[Your AI accounts](#your-ai-accounts) ·
+[NOVARA on your phone](#novara-on-your-phone) ·
+[A studio that feels like a game](#a-studio-that-feels-like-a-game) ·
+[Themes made by AI](#themes-made-by-ai) ·
+[Creations & plugins](#creations--plugins) ·
+[Built to save your tokens](#built-to-save-your-tokens) ·
+[Free forever, private](#free-forever-private) ·
+[Install](#install)
 
-NOVARA est une app gratuite qui transforme les agents IA de programmation (Claude Code, Codex,
-Gemini CLI) en studio de jeu : un coordinateur découpe ton idée en tâches, les agents écrivent le
-code et créent les assets, et tu valides chaque modèle, image et son avant qu'il entre dans ton jeu.
+---
 
-[**⬇ Télécharger pour macOS**](https://github.com/elinahart/novara-releases/releases/latest) · Windows : bientôt
+## From one sentence to a game
 
-- **Une phrase suffit** : décris ton jeu, choisis un moteur (Web 2D, Web 3D, Roblox Studio ou
-  Unity), le coordinateur lance l'équipe.
-- **Une équipe d'agents** (4 au plus en même temps), chacun avec ses rôles ; chaque correction est
-  vérifiée par un autre agent.
-- **Tu valides tout** : chaque nouveau modèle 3D, image ou interface attend ton accord.
-- **Assets créés sur ton ordinateur** : Blender, Inkscape, Krita, GIMP, générateur d'images local
-  (ComfyUI) et synthé de NOVARA pour les sons. NOVARA les installe et vérifie chaque téléchargement.
-- **Tester en un clic**, sur l'ordinateur ou le téléphone (QR code).
-- **Dictée vocale** reconnue sur ton ordinateur, **suivi depuis ton téléphone** sur ton Wi-Fi.
-- **Une ville vivante** : mini-jeux, pièces, bâtiments, personnages, chapeaux et familiers.
-- **Thèmes créés par l'IA**, à partager avec la communauté. **Plugins** : thèmes, modèles de jeu,
-  guides pour les agents.
-- **Mises à jour automatiques et signées.**
+We wrote one sentence: *“A cosy arcade game: catch falling stars with a little basket, avoid the
+meteors. Three levels, a high score, cute pixel art.”* The coordinator planned five tasks and
+recruited a graphics agent, an audio agent and a tester. Each sprite came to us for approval.
+Thirty minutes later, **Star Catcher** was playable — on the computer and on the phone.
 
-**Il te faut** un Mac sous macOS 11 ou plus récent, et au moins un compte d'agent IA (abonnement
-Claude, compte ChatGPT ou compte Google).
+<p align="center">
+  <img src="docs/img/new-project.jpg" alt="New project window" width="520">
+  <img src="docs/img/game-title.jpg" alt="Star Catcher title screen" width="150">
+  <img src="docs/img/game-play.jpg" alt="Star Catcher being played" width="150">
+</p>
 
-**Installer** : télécharge le `.dmg`, glisse NOVARA dans Applications. La première fois, macOS dit
-qu'il ne peut pas vérifier l'app (elle n'est pas notariée par Apple) : ouvre **Réglages Système ›
-Confidentialité et sécurité**, puis **Ouvrir quand même** à côté de NOVARA.
+- Pick an engine and an art style (pixel art, cartoon, low poly, realistic, neon, watercolour, voxel…), or let the AI decide everything.
+- ▶ **Test** starts your game in one click; NOVARA reads the engine's output and errors.
+- **Resume anywhere:** tasks, decisions and interrupted work are remembered; restart the previous team in one click.
+
+## A real team of agents
+
+<img src="docs/img/tasks.jpg" alt="The team's tasks" width="900">
+
+- A **coordinator** — the mayor of your town — turns your objective into tasks with acceptance criteria.
+- It **recruits** up to four agents at once with roles: gameplay, graphics, audio, levels, interface, animation, QA, performance…
+- Agents **reserve the files** they edit, report problems to each other **with proofs**, and **never approve their own work**.
+- A **team panel** shows open problems, checks, exchanges and reserved files.
+
+<img src="docs/img/team.jpg" alt="Team panel" width="900">
+
+Follow your agents as a **town** where each one has a house, in **full screen**, or as **text** with their live terminals.
+Bubbles say what each agent is doing; on a break they stroll, chat, play basketball or look at the sky.
+
+<img src="docs/img/town-full.jpg" alt="The town in full screen" width="900">
+
+## You approve everything
+
+<img src="docs/img/approve.jpg" alt="Approving a pixel-art star" width="900">
+
+When an agent makes a **sprite, a 3D model, an interface (HUD, menus) or a sound**, NOVARA checks it
+technically — size, transparency, floating parts, overlapping faces, stretched textures, silent or
+saturated audio — then shows it to you: **approve, refuse or ask for changes**. Agents can also
+**suggest ideas** or **ask you to choose** between options.
+
+## Assets made on your computer
+
+<img src="docs/img/software.jpg" alt="Software installed by NOVARA" width="900">
+
+NOVARA installs and drives free creative tools for your agents — **Blender, Inkscape, Krita, GIMP,
+LibreSprite, a local image generator (ComfyUI)** — and its **own sound synthesiser**. Every download is
+checked against its publisher's fingerprint.
+
+- Pixel art kit, spritesheets, Tiled tilesets; 3D models in low-poly, PS1, toon or realistic styles.
+- Visual effects and shaders: particles, shockwaves, lightning, holograms, dissolve, water.
+- A **library** for every project, and a central one shared between projects: agents reuse before they remake. Versions, variants, favourites, restore.
+- The **Studio** takes a request in plain words and shows its plan before anything costs a thing.
+- The **workshop**: sound effects in several variants, looping music by mood, layered ambiences, sound processing.
+
+<p align="center">
+  <img src="docs/img/library.jpg" alt="Asset library" width="445">
+  <img src="docs/img/workshop.jpg" alt="Audio and effects workshop" width="445">
+</p>
+
+## Your AI accounts
+
+<img src="docs/img/ai-accounts.jpg" alt="AI accounts" width="600">
+
+Sign in to **Claude Code, Codex (ChatGPT) or Gemini CLI** from the app; NOVARA installs them for you.
+Pick your main AI. Connect online services when you need them: **Supabase, Cloudflare, Netlify,
+Roblox Open Cloud**. Dictate to your agents with **local voice recognition**: your voice never leaves
+your computer.
+
+## NOVARA on your phone
+
+<p align="center">
+  <img src="docs/img/phone-town-dark.jpg" alt="Town on the phone, Dark Aero" width="230">
+  <img src="docs/img/phone-town.jpg" alt="Town on the phone, Frutiger Aero" width="230">
+  <img src="docs/img/phone-themes.jpg" alt="Phone theme picker" width="230">
+</p>
+
+Scan a QR code and your phone becomes a remote for your studio, over your own Wi-Fi: watch the town,
+follow agents and tasks, **approve assets, answer questions, play your game**. The NOVARA **Android app**
+sends a notification when an agent needs you; any phone browser works, iPhone included.
+
+## A studio that feels like a game
+
+Eight themes change the whole app — colours, icons, cursor, sounds and animated wallpapers — and
+**three secret themes** wait to be found.
+
+<p align="center">
+  <img src="docs/img/theme-frutiger-aero.jpg" alt="Frutiger Aero" width="215">
+  <img src="docs/img/theme-dark-aero.jpg" alt="Dark Aero" width="215">
+  <img src="docs/img/theme-technozen.jpg" alt="Technozen" width="215">
+  <img src="docs/img/theme-frutiger-glacier.jpg" alt="Frutiger Glacier" width="215">
+  <img src="docs/img/theme-frutiger-aurora.jpg" alt="Frutiger Aurora" width="215">
+  <img src="docs/img/theme-frutiger-metro.jpg" alt="Frutiger Metro" width="215">
+  <img src="docs/img/theme-frutiger-eco.jpg" alt="Frutiger Eco" width="215">
+  <img src="docs/img/theme-dorfic.jpg" alt="DORFic" width="215">
+</p>
+
+- **Mini-games:** click things in your town — the fountain, the hoop, the aquarium, a mystery block. One point, one coin.
+- **Things to unlock:** spend coins in the shop on buildings, characters, hats and pets; some hide behind secrets and old video-game codes.
+- **Your character:** a look, a hat and a pet that follows you around the town — yours alone, agents never get them. [Try it on the website.](https://elinahart.github.io/novara-releases/#maker)
+
+<p align="center">
+  <img src="docs/img/minigame.jpg" alt="Coin rain mini-game" width="295">
+  <img src="docs/img/shop.jpg" alt="Shop" width="295">
+  <img src="docs/img/char-looks.jpg" alt="Character creator" width="295">
+</p>
+
+## Themes made by AI
+
+<img src="docs/img/theme-creator.jpg" alt="Create a theme with AI" width="700">
+
+Describe any universe — a game, a film, a dream — add pictures if you like, and **the AI of your
+choice** builds a custom theme: colours, icons, buildings that fit, characters that walk around your
+town. NOVARA draws the town and wallpapers on your computer. Tune sprite speed and size live,
+**export** your theme and **share** it.
+
+## Creations & plugins
+
+<p align="center">
+  <img src="docs/img/creations.jpg" alt="Creations shop" width="445">
+  <img src="docs/img/plugins.jpg" alt="Plugins" width="445">
+</p>
+
+- The **Creations shop** lists themes, game templates and guides made by the community, with a picture of each; one click installs them. Everything is checked before it is listed and again before it is installed.
+- **Share** a theme straight from NOVARA: GitHub opens with your file ready.
+- **Plugins** add themes, game templates and guides for the agents. They only contain files — never a program. [How to make a plugin →](https://github.com/elinahart/novara-creations/blob/main/docs/plugins.md)
+
+## Built to save your tokens
+
+Agents use your own subscription or tokens, so NOVARA spends them only where an AI really helps:
+
+- **The right model:** heavy thinking goes to the best model, quick tasks to a small one — Eco, Balanced or Performance per project.
+- **0 tokens** for images, sounds and music made by local tools.
+- **Free checks:** sizes, transparency, silent sounds, broken 3D models are checked by NOVARA itself.
+- **No re-reading:** a short project summary and a resume file instead of re-reading the whole project.
+
+## Free forever, private
+
+- **Free, completely:** every feature, every theme, every update. No subscription, no account, no “pro” version.
+- **Nothing collected:** no analytics, no tracking, nothing is trained on your files. Your projects stay on your computer; NOVARA only goes online to download tools and updates, list the community's creations, or upload assets to your own Roblox account when you ask.
+- The AI agents you connect work with **your own account**: what they read is handled by their provider under its own terms (check your Claude, ChatGPT or Google settings about training).
+- **Signed updates**, offered on the start screen with what they change; the signature is checked before anything is installed.
+- **English and French**, following your computer's language.
+
+If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229QS15)** 💜 — it keeps NOVARA free and pays for Windows, new engines and more themes.
+
+## Install
+
+1. Download `NOVARA_<version>_macos.dmg` from [Releases](https://github.com/elinahart/novara-releases/releases/latest).
+2. Open it and drag **NOVARA** into **Applications**.
+3. The first time, macOS says it cannot check the app (NOVARA is not notarised by Apple): open **System Settings › Privacy & Security**, scroll down and click **Open Anyway**. Only once.
+
+**You need:** a Mac with macOS 11 or later (Apple Silicon or Intel) and at least one AI agent account
+(a Claude subscription, a ChatGPT account or a Google account).
+
+---
+
+## En français
+
+**NOVARA** est une app gratuite — sans abonnement, sans compte — qui transforme les agents IA
+(Claude Code, Codex, Gemini CLI) en studio de jeu : tu décris ton jeu en une phrase, un coordinateur le
+découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
+valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
+
+- Une équipe d'agents qui se répartit le travail, réserve ses fichiers et se vérifie mutuellement.
+- Des assets faits sur ton ordinateur (Blender, Inkscape, Krita, GIMP, générateur d'images local, synthé de sons).
+- Une ville vivante, 8 thèmes (+3 secrets), mini-jeux, pièces, boutique, personnages, chapeaux et familiers.
+- Des thèmes créés par l'IA, une boutique de créations de la communauté, des plugins.
+- NOVARA sur ton téléphone, en Wi-Fi local, avec l'app Android.
+- Rien n'est collecté, aucune IA n'est entraînée sur tes fichiers par NOVARA.
+
+[**⬇ Télécharger pour macOS**](https://github.com/elinahart/novara-releases/releases/latest) ·
+[**Site en français**](https://elinahart.github.io/novara-releases/fr.html) ·
+[**💜 Soutenir sur Ko-fi**](https://ko-fi.com/K4B229QS15)
+
+**Installer :** télécharge le `.dmg`, glisse NOVARA dans Applications. La première fois, macOS dit qu'il
+ne peut pas vérifier l'app : ouvre **Réglages Système › Confidentialité et sécurité**, puis **Ouvrir
+quand même**.
