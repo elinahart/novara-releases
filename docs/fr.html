@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="fr" data-theme="dark-aero">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NOVARA — Crée des jeux avec une équipe d'agents IA</title>
+<meta name="description" content="NOVARA est une app gratuite qui transforme Claude Code, Codex et Gemini CLI en studio de jeu : un coordinateur découpe ton idée en tâches, les agents créent ton jeu, et tu valides chaque asset.">
+<meta property="og:title" content="NOVARA — Crée des jeux avec une équipe d'agents IA">
+<meta property="og:description" content="Décris ton jeu. Une équipe d'agents IA le crée. Tu valides chaque asset.">
+<meta property="og:image" content="https://elinahart.github.io/novara-releases/img/hero-town.jpg">
+<meta property="og:url" content="https://elinahart.github.io/novara-releases/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/novara-icon.png">
+<link rel="stylesheet" href="style.css?v=10">
+<script src="site.js?v=8" defer></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#"><img src="img/novara-icon.png" alt="" width="32" height="32"><span>NOVARA</span></a>
+  <nav>
+    <a href="#how">Comment ça marche</a>
+    <a href="#features">Fonctions</a>
+    <a href="#town">Ta ville</a>
+    <a href="#community">Plugins</a>
+    <div class="theme-picker" role="group" aria-label="Thème du site">
+      <button data-set-theme="dark-aero" style="--sw: linear-gradient(135deg,#0b1024,#3cc6ee)" title="Dark Aero" aria-label="Dark Aero"></button>
+      <button data-set-theme="aero" style="--sw: linear-gradient(135deg,#6db7ef,#e3f0ff)" title="Frutiger Aero" aria-label="Frutiger Aero"></button>
+      <button data-set-theme="technozen" style="--sw: linear-gradient(135deg,#f4efe4,#4a7350)" title="Technozen" aria-label="Technozen"></button>
+      <button data-set-theme="metro" style="--sw: linear-gradient(135deg,#0063b1 50%,#c30052 50%)" title="Frutiger Metro" aria-label="Frutiger Metro"></button>
+    </div>
+    <a href="index.html" lang="en">EN</a>
+    <a class="btn small" href="https://github.com/elinahart/novara-releases/releases/latest">Télécharger</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-text reveal">
+    <p class="eyebrow">Gratuit · macOS · Windows bientôt</p>
+    <h1>Crée des jeux vidéo avec une <em>équipe d'agents IA</em>.</h1>
+    <p class="lead">Décris ton jeu en une phrase. Un coordinateur le découpe en tâches, les agents écrivent le code, dessinent les sprites et composent la musique — et tu valides chaque asset avant qu'il entre dans le jeu.</p>
+    <div class="cta">
+      <a class="btn" href="https://github.com/elinahart/novara-releases/releases/latest">⬇ Télécharger pour macOS</a>
+      <a class="btn ghost" href="https://github.com/elinahart/novara-releases">Voir sur GitHub</a>
+    </div>
+    <p class="works">Marche avec <b>Claude Code</b>, <b>Codex</b> et <b>Gemini CLI</b> · pour <b>Web 2D</b>, <b>Web 3D</b>, <b>Roblox Studio</b> et <b>Unity</b></p>
+  </div>
+  <figure class="hero-shot reveal from-right"><img id="hero-img" src="img/hero-town.jpg" alt="NOVARA : quatre agents travaillent sur un jeu dans une petite ville isométrique" width="1720" height="880"></figure>
+</section>
+
+<section class="typed-band">
+  <p class="typed" data-text="« Un petit jeu d'arcade tout doux : attrape les étoiles avec un panier, évite les météores. Trois niveaux, un meilleur score, du joli pixel art. »"></p>
+  <p class="typed-after reveal">C'est tout ce qu'on a écrit. Voici la suite.</p>
+</section>
+
+<section id="how" class="live">
+  <div class="live-grid">
+    <div class="reveal">
+      <h2 class="left">Regarde l'équipe travailler</h2>
+      <p class="lead">Le coordinateur a prévu cinq tâches et recruté un agent graphismes, un agent audio et un testeur. Chaque sprite nous a été proposé à la validation. Trente minutes plus tard, le jeu était jouable.</p>
+      <ol class="mini-steps">
+        <li><b>Décris-le</b> — choisis un moteur et un style, ou laisse l'IA tout décider.</li>
+        <li><b>L'équipe le crée</b> — tâches, fichiers réservés, chaque correction vérifiée par un autre agent.</li>
+        <li><b>Tu valides</b> — chaque sprite, modèle, interface et son attend ton accord.</li>
+      </ol>
+    </div>
+    <div class="feed reveal from-right" aria-label="Ce qu'ont fait les agents, étape par étape">
+      <div class="feed-head"><span></span><span></span><span></span><b>Star Catcher · activité de l'équipe</b></div>
+      <ul id="feed">
+        <li data-who="Coordinateur" data-c="#f59e0b">Découpe l'idée en 5 tâches : code, sprites, audio, intégration, tests</li>
+        <li data-who="Coordinateur" data-c="#f59e0b">Recrute Nalu (graphismes), Kalani (audio) et Ariel (tests)</li>
+        <li data-who="Nalu" data-c="#3b82f6">Dessine basket.png, star.png, meteor.png en pixel art</li>
+        <li data-who="NOVARA" data-c="#8b5cf6">Contrôle chaque sprite : taille, transparence ✓ — te demande de valider</li>
+        <li data-who="Kalani" data-c="#10b981">Compose une musique douce en boucle et 5 bruitages</li>
+        <li data-who="Coordinateur" data-c="#f59e0b">Écrit le jeu : menu, 3 niveaux, vies, meilleur score</li>
+        <li data-who="Ariel" data-c="#ec4899">Joue des parties entières, essaie de casser le jeu, envoie des captures</li>
+        <li data-who="Toi" data-c="#22c55e">« Passe le jeu en anglais. » — fait en quelques minutes</li>
+      </ul>
+    </div>
+  </div>
+  <div class="game">
+    <figure class="reveal"><img src="img/approve-basket.jpg" alt="Validation du sprite du panier" loading="lazy"><figcaption>Chaque asset attend ton accord</figcaption></figure>
+    <figure class="reveal delay-1 phone"><img src="img/game-title.jpg" alt="Écran titre de Star Catcher" loading="lazy"><figcaption>Le jeu, créé par les agents</figcaption></figure>
+    <figure class="reveal delay-2 phone"><img src="img/game-play.jpg" alt="Une partie de Star Catcher" loading="lazy"><figcaption>Jouable sur ordinateur et téléphone</figcaption></figure>
+  </div>
+</section>
+
+<section class="save">
+  <h2 class="reveal">Pensé pour économiser tes tokens</h2>
+  <p class="lead center reveal">Les agents utilisent ton abonnement ou tes tokens : NOVARA ne les dépense que là où une IA est vraiment utile.</p>
+  <div class="tokens">
+    <div class="reveal"><strong>Le bon modèle</strong><p>La réflexion lourde va au meilleur modèle ; les petites tâches à un modèle léger et moins cher. Économique, équilibré ou qualité max, au choix pour chaque projet.</p></div>
+    <div class="reveal delay-1"><strong>0 token</strong><p>pour les images, les sons et la musique faits par des outils locaux : le générateur d'images, Blender, Inkscape et le synthé de NOVARA tournent sur ton ordinateur.</p></div>
+    <div class="reveal delay-2"><strong>Contrôles gratuits</strong><p>Tailles, transparence, sons muets, modèles 3D cassés : NOVARA les vérifie lui-même au lieu de demander à une IA de regarder.</p></div>
+    <div class="reveal delay-3"><strong>Pas de relecture</strong><p>Un court résumé du projet et un fichier de reprise évitent aux agents de relire tout le projet à chaque démarrage.</p></div>
+  </div>
+  <figure class="models reveal"><img src="img/models.jpg" alt="Agents au démarrage : Éco, Équilibré ou Performance" loading="lazy"><figcaption>Éco, Équilibré ou Performance — pour chaque projet, en un clic.</figcaption></figure>
+</section>
+
+<section id="features" class="features">
+  <h2 class="reveal">Tout ce qu'il faut à un petit studio</h2>
+
+  <article class="feature reveal">
+    <div><h3>Une vraie équipe d'agents</h3>
+      <p>Un coordinateur (le maire de ta ville) transforme ton objectif en tâches avec des critères clairs, puis recrute jusqu'à quatre agents à la fois — gameplay, graphismes, audio, niveaux, tests… Les agents réservent les fichiers qu'ils modifient, se signalent les problèmes avec preuves, et ne valident jamais leur propre travail.</p>
+      <ul><li>Tâches, dépendances et vérifications au même endroit</li><li>Messages d'équipe, problèmes ouverts, points de restauration</li><li>Choisis les modèles : économique, équilibré ou qualité maximale</li></ul></div>
+    <figure><img src="img/tasks.jpg" alt="Les tâches de l'équipe : code, sprites, audio, intégration, tests" loading="lazy"></figure>
+  </article>
+
+  <article class="feature flip reveal">
+    <div><h3>C'est toi qui décides</h3>
+      <p>Quand un agent crée un sprite, un modèle 3D, une interface (HUD, menus) ou un son, NOVARA le contrôle — taille, transparence, pièces qui flottent, son muet — puis te le montre. Rien n'entre dans ton jeu sans ton accord. Les agents peuvent aussi <b>proposer des idées</b> ou <b>te demander de choisir</b> entre des options.</p></div>
+    <figure><img src="img/approve.jpg" alt="Fenêtre de validation : une étoile en pixel art faite par l'agent graphismes" loading="lazy"></figure>
+  </article>
+
+  <article class="feature reveal">
+    <div><h3>Regarde-les travailler</h3>
+      <p>Suis tes agents dans une ville où chacun a sa maison, ou en texte avec leurs terminaux en direct. Des bulles disent ce que fait chacun : écrire un fichier, tester le jeu, réfléchir… En pause, ils se baladent, discutent, jouent au basket ou regardent le ciel.</p></div>
+    <figure><img src="img/team.jpg" alt="Le panneau Équipe : agents, problèmes, vérifications, fichiers réservés" loading="lazy"></figure>
+  </article>
+
+  <article class="feature flip reveal">
+    <div><h3>Des assets créés sur ton ordinateur</h3>
+      <p>NOVARA installe et pilote pour tes agents des logiciels de création gratuits — Blender, Inkscape, Krita, GIMP, LibreSprite, un générateur d'images local (ComfyUI) — et son propre synthé pour les bruitages, les musiques en boucle et les ambiances. Chaque téléchargement est vérifié avec l'empreinte de son éditeur.</p>
+      <ul><li>Kit pixel art, spritesheets et tilesets Tiled</li><li>Modèles 3D low-poly, PS1, toon ou réalistes</li><li>Effets visuels : particules, ondes de choc, hologrammes</li><li>Une bibliothèque d'assets partagée entre tes projets</li></ul></div>
+    <figure><img src="img/software.jpg" alt="Logiciels : les outils installés par NOVARA" loading="lazy"></figure>
+  </article>
+
+  <article class="feature reveal">
+    <div><h3>Une bibliothèque pour tous tes projets</h3>
+      <p>Tout ce que tu valides rejoint la bibliothèque du projet — et, si tu veux, une bibliothèque centrale partagée par tous tes projets. Les agents y regardent d'abord et réutilisent ce qui existe au lieu de le refaire. Le Studio comprend une demande en mots simples (« une texture de béton fissuré humide 1024 »), choisit les bons outils et te montre le plan avant que quoi que ce soit ne coûte.</p>
+      <ul><li>Versions, variantes, favoris et restauration</li><li>Outils locaux, hybrides ou en ligne — au choix</li></ul></div>
+    <figure><img src="img/library.jpg" alt="La bibliothèque d'assets : modèles 3D, voxels, textures, sprites, images, sons" loading="lazy"></figure>
+  </article>
+
+  <article class="feature flip reveal">
+    <div><h3>Un atelier pour les sons et les effets</h3>
+      <p>Décris un bruitage — un saut, une pièce, une porte qui grince — et écoute plusieurs variantes faites sur ton ordinateur. Compose une musique en boucle selon l'ambiance, superpose des ambiances, retouche des sons, prévisualise des effets visuels et des shaders. Puis envoie celui qui te plaît dans ton projet.</p></div>
+    <figure><img src="img/workshop.jpg" alt="L'atelier audio et effets" loading="lazy"></figure>
+  </article>
+
+  <article class="feature reveal">
+    <div><h3>Tes comptes IA, ton choix</h3>
+      <p>Connecte-toi à Claude Code, Codex (ChatGPT) ou Gemini CLI depuis l'app — NOVARA les installe pour toi. Choisis ton IA principale ; les agents utilisent ton abonnement ou tes tokens. Branche des services en ligne quand tu en as besoin : Supabase, Cloudflare, Netlify, Roblox Open Cloud.</p></div>
+    <figure><img src="img/ai-accounts.jpg" alt="Comptes IA : Codex, Claude Code et Gemini CLI connectés" loading="lazy"></figure>
+  </article>
+
+  <article class="feature flip reveal">
+    <div><h3>Teste en un clic — même sur ton téléphone</h3>
+      <p>▶ Tester lance ton jeu. Scanne un QR code pour y jouer sur ton téléphone, suivre tes agents et valider des assets depuis ton canapé, sur ton Wi-Fi. L'app Android de NOVARA t'envoie une notification quand un agent a besoin de toi.</p></div>
+    <figure><img src="img/phone.jpg" alt="Mon téléphone : appairage par QR code (flouté ici)" loading="lazy"></figure>
+  </article>
+
+  <article class="feature reveal">
+    <div><h3>Parle à tes agents</h3>
+      <p>Dicte tes messages : la reconnaissance tourne sur ton ordinateur, rien n'est envoyé en ligne. Dictée silencieuse, conversation écrite ou vocale, ou commandes vocales.</p></div>
+    <figure><img src="img/voice.jpg" alt="Réglages Voix et micro" loading="lazy"></figure>
+  </article>
+</section>
+
+<section id="town" class="town">
+  <h2 class="reveal">Un studio qui ressemble à un jeu</h2>
+  <p class="lead center reveal">Huit thèmes changent toute l'app — couleurs, icônes, curseur, sons et fonds d'écran animés — et trois thèmes secrets attendent d'être trouvés.</p>
+  <div class="showcase" id="showcase">
+    <div class="show-stick">
+      <div class="show-head">
+        <p class="show-count"><span id="show-n">1</span> / 8</p>
+        <h3 id="show-name">Frutiger Aero</h3>
+        <p id="show-desc" class="show-desc">Ciel, eau turquoise et verre léger. Le thème par défaut.</p>
+        <button class="btn small ghost" id="show-keep">Garder ce thème pour le site</button>
+      </div>
+      <figure class="show-frame"><img id="show-img" src="img/theme-frutiger-aero.jpg" alt="NOVARA avec le thème Frutiger Aero"></figure>
+      <div class="show-strip" role="tablist" aria-label="Thèmes">
+        <button data-i="0" data-theme-id="aero" data-img="theme-frutiger-aero" data-name="Frutiger Aero" data-desc="Ciel, eau turquoise et verre léger. Le thème par défaut."><img src="img/theme-frutiger-aero.jpg" alt=""></button>
+        <button data-i="1" data-theme-id="dark-aero" data-img="theme-dark-aero" data-name="Dark Aero" data-desc="Bleu nuit, violet et cyan vif, fond sombre."><img src="img/theme-dark-aero.jpg" alt=""></button>
+        <button data-i="2" data-theme-id="technozen" data-img="theme-technozen" data-name="Technozen" data-desc="Beige, bois clair et vert doux : calme et aéré."><img src="img/theme-technozen.jpg" alt=""></button>
+        <button data-i="3" data-theme-id="glacier" data-img="theme-frutiger-glacier" data-name="Frutiger Glacier" data-desc="Blanc neige, bleu glacier et lumière d'hiver."><img src="img/theme-frutiger-glacier.jpg" alt=""></button>
+        <button data-i="4" data-theme-id="aurora" data-img="theme-frutiger-aurora" data-name="Frutiger Aurora" data-desc="Bleu profond et lueurs d'aurore boréale, fond sombre."><img src="img/theme-frutiger-aurora.jpg" alt=""></button>
+        <button data-i="5" data-theme-id="metro" data-img="theme-frutiger-metro" data-name="Frutiger Metro" data-desc="Aplats de couleurs vives, formes géométriques, fort contraste."><img src="img/theme-frutiger-metro.jpg" alt=""></button>
+        <button data-i="6" data-theme-id="eco" data-img="theme-frutiger-eco" data-name="Frutiger Eco" data-desc="Vert végétal, blanc et lumière naturelle."><img src="img/theme-frutiger-eco.jpg" alt=""></button>
+        <button data-i="7" data-theme-id="dorfic" data-img="theme-dorfic" data-name="DORFic" data-desc="Blanc, orange et gris clair : technique et sobre."><img src="img/theme-dorfic.jpg" alt=""></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="trio">
+    <article class="reveal"><img src="img/minigame.jpg" alt="Mini-jeu Pluie de pièces" loading="lazy"><h3>Mini-jeux et pièces</h3><p>Clique sur des choses dans ta ville — la fontaine, le panier, l'aquarium, un bloc mystère — pour jouer à des mini-jeux. Un point, une pièce.</p></article>
+    <article class="reveal delay-1"><img src="img/shop.jpg" alt="La boutique : bâtiments, personnages, chapeaux, familiers" loading="lazy"><h3>Des choses à débloquer</h3><p>Dépense tes pièces dans la boutique : nouveaux bâtiments pour ta ville, personnages, chapeaux et familiers. Certains se cachent derrière des secrets et de vieux codes de jeux vidéo.</p></article>
+    <article class="reveal delay-2"><img src="img/characters.jpg" alt="Création de personnage" loading="lazy"><h3>Ton personnage</h3><p>Choisis ton apparence, un chapeau et un familier qui te suit dans la ville. Ces apparences sont rien qu'à toi — les agents ne les reçoivent jamais.</p></article>
+  </div>
+
+  <div class="maker reveal" id="maker">
+    <div class="maker-stage">
+      <div class="maker-ground">
+        <span class="maker-me" id="maker-me" aria-hidden="true"></span>
+        <span class="maker-pet" id="maker-pet" aria-hidden="true"></span>
+      </div>
+      <p class="maker-name"><b id="maker-name">Alex</b><small id="maker-look">Astronaute</small></p>
+    </div>
+    <div class="maker-tools">
+      <h3>Crée ton personnage</h3>
+      <p class="muted">Les mêmes apparences, chapeaux et familiers que dans l'app. Dans NOVARA, beaucoup d'autres attendent d'être débloqués avec des pièces et des secrets.</p>
+      <div class="maker-row">
+        <input id="maker-input" maxlength="16" value="Alex" aria-label="Prénom">
+        <button class="btn small ghost" id="maker-random">🎲 Au hasard</button>
+      </div>
+      <div class="maker-tabs" role="tablist">
+        <button role="tab" aria-selected="true" data-tab="look">Apparence</button>
+        <button role="tab" aria-selected="false" data-tab="hat">Chapeau</button>
+        <button role="tab" aria-selected="false" data-tab="pet">Familier</button>
+      </div>
+      <div class="maker-grid" id="maker-grid"></div>
+    </div>
+  </div>
+
+  <div class="trio chars">
+    <figure class="reveal"><img src="img/char-looks.jpg" alt="Des apparences à débloquer avec des pièces" loading="lazy"><figcaption>Des apparences à débloquer avec des pièces</figcaption></figure>
+    <figure class="reveal delay-1"><img src="img/char-hats.jpg" alt="Chapeaux" loading="lazy"><figcaption>Des chapeaux pour tous les styles</figcaption></figure>
+    <figure class="reveal delay-2"><img src="img/char-pets.jpg" alt="Des familiers, dont certains secrets" loading="lazy"><figcaption>Des familiers — certains cachés derrière des secrets</figcaption></figure>
+  </div>
+
+  <article class="feature reveal">
+    <div><h3>Des thèmes créés par l'IA</h3>
+      <p>Décris n'importe quel univers — un jeu, un film, un rêve — et l'IA de ton choix crée un thème perso : couleurs, icônes, bâtiments assortis et personnages qui se promènent dans ta ville. NOVARA dessine la ville et les fonds d'écran sur ton ordinateur. Règle la vitesse et la taille des sprites en direct, exporte ton thème et partage-le.</p></div>
+    <figure><img src="img/appearance.jpg" alt="Apparence : thèmes et thèmes perso" loading="lazy"></figure>
+  </article>
+</section>
+
+<section id="community" class="features">
+  <h2 class="reveal">Crée, partage, télécharge</h2>
+  <p class="lead center reveal">Tes propres thèmes, une boutique de créations de la communauté et des plugins — tout dans l'app, gratuitement.</p>
+  <ol class="flow">
+    <li class="reveal"><span>1</span><h3>Crée un thème avec l'IA</h3><p>Décris un univers, ajoute des images si tu veux, et choisis l'IA qui le fabrique.</p><img src="img/theme-creator.jpg" alt="Créer un thème avec l'IA" loading="lazy"></li>
+    <li class="reveal delay-1"><span>2</span><h3>Rends-le unique</h3><p>NOVARA dessine sa ville et ses fonds d'écran. Règle la vitesse et la taille des sprites en direct, applique-le, exporte-le.</p><img src="img/appearance.jpg" alt="Apparence et tes thèmes" loading="lazy"></li>
+    <li class="reveal delay-2"><span>3</span><h3>Partage-le</h3><p>« Partager » ouvre GitHub avec ton thème prêt. Une fois vérifié, il apparaît dans la boutique Créations de tout le monde.</p><img src="img/creations.jpg" alt="La boutique Créations" loading="lazy"></li>
+  </ol>
+  <article class="feature flip reveal">
+    <div><h3>La boutique Créations</h3>
+      <p>Parcours les thèmes, modèles de jeu et guides pour les agents créés par la communauté, avec une image pour chacun. Un clic les installe — tout est vérifié avant d'être listé, et encore avant d'être installé.</p>
+      <p><a href="https://github.com/elinahart/novara-creations">Voir les créations →</a></p></div>
+    <figure><img src="img/creations.jpg" alt="Boutique des créations" loading="lazy"></figure>
+  </article>
+  <article class="feature reveal">
+    <div><h3>Plugins</h3>
+      <p>Un plugin ajoute des thèmes, des modèles de jeu pour démarrer un projet, et des guides que lisent tes agents. Un plugin ne contient que des fichiers — jamais de programme — et NOVARA le vérifie avant de l'installer. Il suffit d'un <code>plugin.json</code> et d'un dossier.</p>
+      <p><a href="https://github.com/elinahart/novara-creations/blob/main/docs/plugins.md">Créer un plugin →</a></p></div>
+    <figure><img src="img/plugins.jpg" alt="Panneau Plugins" loading="lazy"></figure>
+  </article>
+</section>
+
+<section class="more">
+  <h2 class="reveal">Et aussi</h2>
+  <div class="cards">
+    <div class="reveal"><h3>Mises à jour signées</h3><p>Les nouvelles versions sont proposées sur l'écran de démarrage, avec ce qu'elles changent. La signature est vérifiée avant toute installation.</p></div>
+    <div class="reveal delay-1"><h3>Français et anglais</h3><p>L'app suit la langue de ton ordinateur. Tu peux la changer dans les Réglages.</p></div>
+    <div class="reveal delay-2"><h3>Tu reprends où tu en étais</h3><p>NOVARA garde les tâches, les décisions et le travail interrompu. Relance l'équipe d'avant en un clic après un plantage.</p></div>
+    <div class="reveal"><h3>Quatre moteurs</h3><p>Web 2D (Phaser), Web 3D (three.js), Roblox Studio avec Rojo, et Unity — NOVARA lance des parties de test et lit la sortie du moteur.</p></div>
+    <div class="reveal delay-1"><h3>Sons de l'interface</h3><p>Verre, bois, cristal : chaque thème a ses petits sons et son ambiance. Tout est facultatif.</p></div>
+    <div class="reveal delay-2"><h3>Privé par conception</h3><p>Tes projets restent sur ton ordinateur. Ta voix est reconnue en local. Ton téléphone parle à ton ordinateur par ton Wi-Fi.</p></div>
+  </div>
+</section>
+
+<section id="download" class="download reveal">
+  <h2>Obtenir NOVARA</h2>
+  <p>Gratuit. Il te faut un Mac sous macOS 11 ou plus récent, et au moins un compte d'agent IA (abonnement Claude, compte ChatGPT ou compte Google).</p>
+  <a class="btn big" href="https://github.com/elinahart/novara-releases/releases/latest">⬇ Télécharger pour macOS</a>
+  <p class="small">Windows : bientôt. La première fois, macOS dit qu'il ne peut pas vérifier l'app (elle n'est pas notariée par Apple) : ouvre <b>Réglages Système › Confidentialité et sécurité</b> et clique sur <b>Ouvrir quand même</b>.</p>
+</section>
+</main>
+
+<footer>
+  <img src="img/novara-icon.png" alt="" width="28" height="28">
+  <p>NOVARA par Elina · <a href="https://github.com/elinahart/novara-releases">Téléchargements</a> · <a href="https://github.com/elinahart/novara-creations">Créations</a></p>
+</footer>
+</body>
+</html>
