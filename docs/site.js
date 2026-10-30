@@ -289,3 +289,84 @@
   });
   paint(); fill();
 })();
+
+// ---- Listen: the music's four layers played together (each one on or off), and the sound effects.
+(function () {
+  var play = document.getElementById("mix-play");
+  if (!play) return;
+  var ctx = null, gains = {}, sources = [], buffers = null, analyser = null, playing = false, raf = 0;
+  var LAYERS = ["melodie", "arpege", "basse", "nappe"];
+  var bars = Array.prototype.slice.call(document.querySelectorAll(".eq span"));
+  var load = function () {
+    ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+    if (buffers) return Promise.resolve(buffers);
+    return Promise.all(LAYERS.map(function (l) {
+      return fetch("audio/layer-" + l + ".m4a").then(function (r) { return r.arrayBuffer(); }).then(function (b) { return ctx.decodeAudioData(b); });
+    })).then(function (bs) { buffers = bs; return bs; });
+  };
+  var draw = function () {
+    var data = new Uint8Array(analyser.frequencyBinCount);
+    analyser.getByteFrequencyData(data);
+    bars.forEach(function (b, i) {
+      var v = data[Math.floor((i / bars.length) * data.length * 0.6)] / 255;
+      b.style.height = Math.max(8, v * 100) + "%";
+    });
+    raf = requestAnimationFrame(draw);
+  };
+  var stop = function () {
+    sources.forEach(function (s) { try { s.stop(); } catch (e) { /* already stopped */ } });
+    sources = [];
+    playing = false;
+    play.textContent = "▶";
+    play.classList.remove("playing");
+    cancelAnimationFrame(raf);
+    bars.forEach(function (b) { b.style.height = "8%"; });
+  };
+  play.addEventListener("click", function () {
+    if (playing) return stop();
+    play.textContent = "…";
+    load().then(function (bs) {
+      analyser = analyser || ctx.createAnalyser();
+      analyser.fftSize = 64;
+      analyser.connect(ctx.destination);
+      var at = ctx.currentTime + 0.05;
+      bs.forEach(function (buf, i) {
+        var l = LAYERS[i];
+        gains[l] = gains[l] || ctx.createGain();
+        gains[l].connect(analyser);
+        var on = document.querySelector('.layer[data-layer="' + l + '"]').classList.contains("on");
+        gains[l].gain.value = on ? 1 : 0;
+        var src = ctx.createBufferSource();
+        src.buffer = buf;
+        src.loop = true;
+        src.connect(gains[l]);
+        src.start(at);
+        sources.push(src);
+      });
+      playing = true;
+      play.textContent = "❚❚";
+      play.classList.add("playing");
+      draw();
+    }).catch(function () { play.textContent = "▶"; });
+  });
+  document.querySelectorAll(".layer").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var on = !b.classList.contains("on");
+      b.classList.toggle("on", on);
+      b.setAttribute("aria-pressed", String(on));
+      var g = gains[b.dataset.layer];
+      if (g && ctx) g.gain.setTargetAtTime(on ? 1 : 0, ctx.currentTime, 0.05);
+    });
+  });
+  var current = null;
+  document.querySelectorAll(".sfx button").forEach(function (b) {
+    b.addEventListener("click", function () {
+      if (current) { current.audio.pause(); current.button.classList.remove("playing"); if (current.button === b) { current = null; return; } }
+      var a = new Audio(b.dataset.src);
+      b.classList.add("playing");
+      a.onended = function () { b.classList.remove("playing"); current = null; };
+      a.play();
+      current = { audio: a, button: b };
+    });
+  });
+})();

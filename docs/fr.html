@@ -11,8 +11,8 @@
 <meta property="og:url" content="https://elinahart.github.io/novara-releases/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="img/novara-icon.png">
-<link rel="stylesheet" href="style.css?v=13">
-<script src="site.js?v=12" defer></script>
+<link rel="stylesheet" href="style.css?v=15">
+<script src="site.js?v=14" defer></script>
 </head>
 <body>
 <header class="top">
@@ -47,7 +47,7 @@
     </div>
     <p class="works">Marche avec <b>Claude Code</b>, <b>Codex</b> et <b>Gemini CLI</b> · pour <b>Web 2D</b>, <b>Web 3D</b>, <b>Roblox Studio</b> et <b>Unity</b></p>
   </div>
-  <figure class="hero-shot reveal from-right"><img id="hero-img" src="img/hero-town.jpg" alt="NOVARA : quatre agents travaillent sur un jeu dans une petite ville isométrique" width="1720" height="880"></figure>
+  <figure class="hero-shot reveal from-right"><img id="hero-img" src="img/hero-town.jpg" alt="NOVARA : cinq agents et leurs rôles travaillent sur un jeu dans une petite ville isométrique" width="1720" height="880"></figure>
 </section>
 
 <section class="typed-band">
@@ -81,7 +81,7 @@
     </div>
   </div>
   <div class="game">
-    <figure class="reveal"><img src="img/approve-basket.jpg" alt="Validation du sprite du panier" loading="lazy"><figcaption>Chaque asset attend ton accord</figcaption></figure>
+    <figure class="reveal"><img src="img/approve-basket.jpg" alt="Validation de Pip le jardinier, fait par l’agent graphismes" loading="lazy"><figcaption>Chaque asset attend ton accord</figcaption></figure>
     <figure class="reveal delay-1 phone"><img src="img/game-title.jpg" alt="Écran titre de Star Catcher" loading="lazy"><figcaption>Le jeu, créé par les agents</figcaption></figure>
     <figure class="reveal delay-2 phone"><img src="img/game-play.jpg" alt="Une partie de Star Catcher" loading="lazy"><figcaption>Jouable sur ordinateur et téléphone</figcaption></figure>
   </div>
@@ -97,6 +97,17 @@
     <div class="reveal delay-3"><strong>Pas de relecture</strong><p>Un court résumé du projet et un fichier de reprise évitent aux agents de relire tout le projet à chaque démarrage.</p></div>
   </div>
   <figure class="models reveal"><img src="img/models.jpg" alt="Agents au démarrage : Éco, Équilibré ou Performance" loading="lazy"><figcaption>Éco, Équilibré ou Performance — pour chaque projet, en un clic.</figcaption></figure>
+</section>
+
+<section class="autonomy">
+  <h2 class="reveal">Des agents autonomes. Tu gardes le dernier mot.</h2>
+  <p class="lead center reveal">L'équipe planifie, crée, teste et corrige toute seule — et ne revient vers toi que quand ton goût compte.</p>
+  <div class="auto-grid">
+    <figure class="reveal"><img src="img/choice.jpg" alt="Un agent demande à l'utilisateur de choisir" loading="lazy"><figcaption><b>Ils te font choisir.</b> Quand il y a une vraie décision — une ambiance, une palette, un outil à installer — un agent propose quelques options claires, ou ta propre réponse.</figcaption></figure>
+    <figure class="reveal delay-1"><img src="img/idea.jpg" alt="Un agent propose une idée" loading="lazy"><figcaption><b>Ils proposent des idées.</b> Un agent repère une amélioration, explique pourquoi et ce qu'elle change ; tu acceptes, refuses ou ajustes.</figcaption></figure>
+    <figure class="reveal delay-2"><img src="img/tasks.jpg" alt="Des tâches avec critères et preuves" loading="lazy"><figcaption><b>Ils prouvent leur travail.</b> Chaque tâche a un critère ; un autre agent la vérifie avec de vraies preuves — compilation, tests, captures — avant qu'elle compte comme faite.</figcaption></figure>
+  </div>
+  <p class="auto-note reveal">Une question à la fois : validations, choix et idées attendent leur tour, tu n'es jamais noyée sous les fenêtres.</p>
 </section>
 
 <section id="features" class="features">
@@ -140,6 +151,37 @@
       <p>Décris un bruitage — un saut, une pièce, une porte qui grince — et écoute plusieurs variantes faites sur ton ordinateur. Compose une musique en boucle selon l'ambiance, superpose des ambiances, retouche des sons, prévisualise des effets visuels et des shaders. Puis envoie celui qui te plaît dans ton projet.</p></div>
     <figure><img src="img/workshop.jpg" alt="L'atelier audio et effets" loading="lazy"></figure>
   </article>
+
+  <div class="sound-lab reveal" id="sounds">
+    <div class="sound-text">
+      <h3>Écoute : des sons créés par les agents</h3>
+      <p>Pas de banque de sons ni d'IA audio : NOVARA a son propre synthé. L'agent audio décrit un son — « un petit coup dans la terre », « une boucle lofi douce » — et NOVARA le fabrique avec des oscillateurs, du bruit et des enveloppes, en plusieurs variantes à comparer. La musique est composée en partition MIDI, puis rendue en couches que tu peux mixer. Tout est fait sur ton ordinateur et t'appartient, libre de droits.</p>
+      <p class="muted">Ce sont de vrais fichiers des jeux de démo <b>Moon Garden</b> et <b>Star Catcher</b>, créés par les agents en quelques minutes.</p>
+    </div>
+    <div class="sound-panel">
+      <div class="mixer">
+        <div class="mixer-head">
+          <button class="play-big" id="mix-play" aria-label="Écouter la musique de Moon Garden">▶</button>
+          <div><b>Moon Garden — thème principal</b><small>Musique en boucle, 4 couches · allume-les et coupe-les</small></div>
+        </div>
+        <div class="layers">
+          <button class="layer on" data-layer="melodie" aria-pressed="true"><i></i>Mélodie</button>
+          <button class="layer on" data-layer="arpege" aria-pressed="true"><i></i>Arpège</button>
+          <button class="layer on" data-layer="basse" aria-pressed="true"><i></i>Basse</button>
+          <button class="layer on" data-layer="nappe" aria-pressed="true"><i></i>Nappe</button>
+        </div>
+        <div class="eq" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      </div>
+      <div class="sfx">
+        <button data-src="audio/plant.m4a"><span>🌱</span>Planter</button>
+        <button data-src="audio/click.m4a"><span>🖱️</span>Clic de menu</button>
+        <button data-src="audio/thud.m4a"><span>☄️</span>Comète</button>
+        <button data-src="audio/chime-up.m4a"><span>⭐</span>Niveau suivant</button>
+        <button data-src="audio/game-over.m4a"><span>🌙</span>Fin de partie</button>
+        <button data-src="audio/star-catcher-music.m4a" data-long><span>🎵</span>Musique de Star Catcher</button>
+      </div>
+    </div>
+  </div>
 
   <article class="feature reveal">
     <div><h3>Tes comptes IA, ton choix</h3>

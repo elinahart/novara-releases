@@ -387,3 +387,35 @@ main figure:not(.hero-shot) img:hover, .trio img:hover { transform: translateY(-
 @media (prefers-reduced-motion: reduce) { .donate::after { animation: none; } }
 .donate span { white-space: nowrap; }
 @media (max-width: 420px) { .donate { padding: 12px 18px; font-size: 15px; gap: 8px; } }
+
+/* Listen: the sounds made by the agents. */
+.sound-lab { display: grid; grid-template-columns: 1fr 1.1fr; gap: 40px; align-items: center; margin: 0 0 96px; padding: 36px; border-radius: calc(var(--radius) + 6px); background: var(--surface); border: 1px solid var(--border); }
+.sound-text p { color: var(--muted); }
+.sound-text .muted { font-size: 15px; }
+.mixer { padding: 20px; border-radius: var(--radius); background: #0b0f24; color: #e9edff; box-shadow: 0 24px 60px var(--shadow); }
+.mixer-head { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
+.mixer-head b { display: block; }
+.mixer-head small { color: #a9b1d6; }
+.play-big { width: 54px; height: 54px; border-radius: 50%; border: none; cursor: pointer; font-size: 20px; color: #fff; background: linear-gradient(135deg, var(--accent), var(--accent-2)); box-shadow: 0 8px 22px color-mix(in srgb, var(--accent) 50%, transparent); flex: none; }
+.play-big.playing { font-size: 16px; }
+.layers { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.layer { display: flex; align-items: center; gap: 8px; justify-content: center; padding: 10px 6px; border-radius: 12px; border: 1px solid rgb(255 255 255 / 0.14); background: rgb(255 255 255 / 0.04); color: #a9b1d6; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; transition: all 0.2s ease; }
+.layer i { width: 9px; height: 9px; border-radius: 50%; background: #555b7a; }
+.layer.on { color: #fff; border-color: color-mix(in srgb, var(--accent-2) 70%, transparent); background: color-mix(in srgb, var(--accent-2) 18%, transparent); }
+.layer.on i { background: var(--accent-2); box-shadow: 0 0 10px var(--accent-2); }
+.eq { display: flex; align-items: flex-end; gap: 5px; height: 46px; margin-top: 16px; }
+.eq span { flex: 1; height: 8%; border-radius: 3px; background: linear-gradient(180deg, var(--accent-2), var(--accent)); transition: height 0.08s linear; }
+.sfx { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 12px; }
+.sfx button { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 12px 6px; border-radius: 14px; border: 1px solid var(--border); background: var(--bg); color: var(--text); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; transition: transform 0.15s ease, border-color 0.15s ease; }
+.sfx button span { font-size: 22px; }
+.sfx button:hover { transform: translateY(-2px); border-color: var(--accent); }
+.sfx button.playing { border-color: var(--accent-2); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-2) 30%, transparent); }
+@media (max-width: 900px) { .sound-lab { grid-template-columns: 1fr; padding: 22px; } .layers { grid-template-columns: repeat(2, 1fr); } }
+
+/* Autonomous agents, the user's last word. */
+.auto-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: start; }
+.auto-grid img { border-radius: 16px; border: 1px solid var(--border); box-shadow: 0 24px 60px var(--shadow); }
+.auto-grid figcaption { color: var(--muted); font-size: 15px; margin-top: 14px; }
+.auto-grid figcaption b { color: var(--text); display: block; font-size: 17px; margin-bottom: 4px; }
+.auto-note { text-align: center; color: var(--muted); margin-top: 30px; }
+@media (max-width: 900px) { .auto-grid { grid-template-columns: 1fr; } }

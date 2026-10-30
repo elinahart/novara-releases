@@ -14,7 +14,7 @@ Free forever · no subscription · no account · macOS (Windows soon)</p>
   <a href="https://ko-fi.com/K4B229QS15"><b>💜 Support on Ko-fi</b></a>
 </p>
 
-<p align="center"><img src="docs/img/hero-town.jpg" alt="Four AI agents working on a game in NOVARA's little town" width="900"></p>
+<p align="center"><img src="docs/img/hero-town.jpg" alt="Five AI agents and their roles, working on a game in NOVARA's little town" width="900"></p>
 
 NOVARA turns AI coding agents — **Claude Code**, **Codex** and **Gemini CLI** — into a game studio.
 You describe your game in one sentence; a coordinator splits it into tasks and recruits agents for
@@ -75,9 +75,23 @@ Bubbles say what each agent is doing; on a break they stroll, chat, play basketb
 
 <img src="docs/img/town-full.jpg" alt="The town in full screen" width="900">
 
+## Autonomous agents, you keep the last word
+
+The team plans, builds, tests and fixes on its own, and comes back to you only when your taste matters:
+
+<p align="center">
+  <img src="docs/img/choice.jpg" alt="An agent asks you to choose" width="440">
+  <img src="docs/img/idea.jpg" alt="An agent suggests an idea" width="440">
+</p>
+
+- **They ask you to choose** when there is a real decision — a mood, a palette, a tool to install.
+- **They suggest ideas**, with why and what it changes; you accept, refuse or adjust.
+- **They prove their work**: every task has a criterion, checked by another agent with builds, tests and captures.
+- **One question at a time**: approvals, choices and ideas wait in line.
+
 ## You approve everything
 
-<img src="docs/img/approve.jpg" alt="Approving a pixel-art star" width="900">
+<img src="docs/img/approve-basket.jpg" alt="Approving Pip the gardener's sprite sheet" width="900">
 
 When an agent makes a **sprite, a 3D model, an interface (HUD, menus) or a sound**, NOVARA checks it
 technically — size, transparency, floating parts, overlapping faces, stretched textures, silent or
@@ -102,6 +116,12 @@ checked against its publisher's fingerprint.
   <img src="docs/img/library.jpg" alt="Asset library" width="445">
   <img src="docs/img/workshop.jpg" alt="Audio and effects workshop" width="445">
 </p>
+
+## Sounds made by the agents
+
+No sample library, no audio AI: NOVARA has its own synthesiser. Sound effects in several variants,
+music composed as a MIDI score and rendered in layers, ambiences — all made on your computer and
+royalty-free. **[Listen to them on the website →](https://elinahart.github.io/novara-releases/#sounds)**
 
 ## Your AI accounts
 
@@ -207,7 +227,8 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
-- Une équipe d'agents qui se répartit le travail, réserve ses fichiers et se vérifie mutuellement.
+- Une équipe d'agents autonome qui se répartit le travail, réserve ses fichiers et se vérifie mutuellement ; elle te demande de choisir et te propose des idées quand ton avis compte.
+- Des sons créés sur ton ordinateur par le synthé de NOVARA ([à écouter sur le site](https://elinahart.github.io/novara-releases/fr.html#sounds)).
 - Des assets faits sur ton ordinateur (Blender, Inkscape, Krita, GIMP, générateur d'images local, synthé de sons).
 - Une ville vivante, 8 thèmes (+3 secrets), mini-jeux, pièces, boutique, personnages, chapeaux et familiers.
 - Des thèmes créés par l'IA, une boutique de créations de la communauté, des plugins.
