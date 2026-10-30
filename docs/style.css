@@ -341,3 +341,17 @@ main figure:not(.hero-shot) img:hover, .trio img:hover { transform: translateY(-
 .flow li p { color: var(--muted); flex: 1; }
 .flow li img { border-radius: 12px; border: 1px solid var(--border); margin-top: 10px; cursor: zoom-in; }
 @media (max-width: 900px) { .flow { grid-template-columns: 1fr; } }
+
+/* NOVARA on the phone. */
+.phone-band { display: grid; grid-template-columns: 0.9fr 1.3fr; gap: 40px; align-items: center; margin: 0 0 110px; padding: 40px; border-radius: calc(var(--radius) + 8px); background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 16%, transparent), color-mix(in srgb, var(--accent-2) 12%, transparent)); border: 1px solid var(--border); }
+.phone-text p, .phone-text ul { color: var(--muted); }
+.phone-text li { margin-bottom: 6px; }
+.phones { display: flex; justify-content: center; align-items: center; gap: 0; }
+.phone-frame { width: 31%; max-width: 230px; border-radius: 34px; padding: 8px; background: #0b0d18; box-shadow: 0 30px 70px var(--shadow), inset 0 0 0 2px #2a2f45; margin: 0 -14px; transition: transform 0.4s cubic-bezier(.2,.7,.2,1); }
+.phone-frame img { border-radius: 26px; display: block; width: 100%; }
+.phone-frame.tilt-l { transform: rotate(-6deg) translateY(16px); }
+.phone-frame.tilt-r { transform: rotate(6deg) translateY(16px); }
+.phone-frame.up { position: relative; z-index: 2; transform: translateY(-14px) scale(1.06); }
+.phones:hover .phone-frame.tilt-l { transform: rotate(-3deg) translateX(-18px) translateY(8px); }
+.phones:hover .phone-frame.tilt-r { transform: rotate(3deg) translateX(18px) translateY(8px); }
+@media (max-width: 900px) { .phone-band { grid-template-columns: 1fr; padding: 24px; } }

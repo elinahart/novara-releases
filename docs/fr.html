@@ -11,7 +11,7 @@
 <meta property="og:url" content="https://elinahart.github.io/novara-releases/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="img/novara-icon.png">
-<link rel="stylesheet" href="style.css?v=10">
+<link rel="stylesheet" href="style.css?v=11">
 <script src="site.js?v=8" defer></script>
 </head>
 <body>
@@ -21,6 +21,7 @@
     <a href="#how">Comment ça marche</a>
     <a href="#features">Fonctions</a>
     <a href="#town">Ta ville</a>
+    <a href="#phone">Téléphone</a>
     <a href="#community">Plugins</a>
     <div class="theme-picker" role="group" aria-label="Thème du site">
       <button data-set-theme="dark-aero" style="--sw: linear-gradient(135deg,#0b1024,#3cc6ee)" title="Dark Aero" aria-label="Dark Aero"></button>
@@ -145,11 +146,18 @@
     <figure><img src="img/ai-accounts.jpg" alt="Comptes IA : Codex, Claude Code et Gemini CLI connectés" loading="lazy"></figure>
   </article>
 
-  <article class="feature flip reveal">
-    <div><h3>Teste en un clic — même sur ton téléphone</h3>
-      <p>▶ Tester lance ton jeu. Scanne un QR code pour y jouer sur ton téléphone, suivre tes agents et valider des assets depuis ton canapé, sur ton Wi-Fi. L'app Android de NOVARA t'envoie une notification quand un agent a besoin de toi.</p></div>
-    <figure><img src="img/phone.jpg" alt="Mon téléphone : appairage par QR code (flouté ici)" loading="lazy"></figure>
-  </article>
+  <div class="phone-band reveal" id="phone">
+    <div class="phone-text">
+      <h3>NOVARA sur ton téléphone</h3>
+      <p>Scanne le QR code affiché sur ton ordinateur et ton téléphone devient la télécommande de ton studio : regarde la ville en direct, vois ce que fait chaque agent, suis les tâches, valide les sprites et les modèles, réponds aux questions des agents — et joue à ton jeu. Tout reste sur ton Wi-Fi.</p>
+      <ul><li>▶ Tester lance ton jeu sur le téléphone en un clic</li><li>Onglets Ville, Agents, Tâches, Valider et Bibliothèque</li><li>Son propre thème, ou le même que l'ordinateur</li><li>App Android avec notifications quand un agent a besoin de toi</li><li>Marche dans le navigateur de n'importe quel téléphone, iPhone compris</li></ul>
+    </div>
+    <div class="phones">
+      <figure class="phone-frame tilt-l"><img src="img/phone-town-dark.jpg" alt="La ville sur le téléphone, thème Dark Aero" loading="lazy"></figure>
+      <figure class="phone-frame up"><img src="img/phone-town.jpg" alt="La ville sur le téléphone, thème Frutiger Aero" loading="lazy"></figure>
+      <figure class="phone-frame tilt-r"><img src="img/phone-themes.jpg" alt="Choisir le thème du téléphone" loading="lazy"></figure>
+    </div>
+  </div>
 
   <article class="feature reveal">
     <div><h3>Parle à tes agents</h3>
