@@ -5,10 +5,11 @@
 <h1 align="center">NOVARA</h1>
 
 <p align="center"><b>Make video games with a team of AI agents — on your own computer.</b><br>
-Free forever · no subscription · no account · macOS (Windows soon)</p>
+Free forever · no subscription · no account · macOS · Windows</p>
 
 <p align="center">
   <a href="https://github.com/elinahart/novara-releases/releases/latest"><b>⬇ Download for macOS</b></a> ·
+  <a href="https://github.com/elinahart/novara-releases/releases/latest"><b>⬇ Download for Windows</b></a> ·
   <a href="https://elinahart.github.io/novara-releases/"><b>🌐 Website</b></a> ·
   <a href="https://github.com/elinahart/novara-creations"><b>🎨 Community creations</b></a> ·
   <a href="https://ko-fi.com/K4B229QS15"><b>💜 Support on Ko-fi</b></a>
@@ -207,15 +208,23 @@ Agents use your own subscription or tokens, so NOVARA spends them only where an 
 - **Signed updates**, offered on the start screen with what they change; the signature is checked before anything is installed.
 - **English and French**, following your computer's language.
 
-If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229QS15)** 💜 — it keeps NOVARA free and pays for Windows, new engines and more themes.
+If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229QS15)** 💜 — it keeps NOVARA free and pays for new engines and more themes.
 
 ## Install
+
+**On Mac**
 
 1. Download `NOVARA_<version>_macos.dmg` from [Releases](https://github.com/elinahart/novara-releases/releases/latest).
 2. Open it and drag **NOVARA** into **Applications**.
 3. The first time, macOS says it cannot check the app (NOVARA is not notarised by Apple): open **System Settings › Privacy & Security**, scroll down and click **Open Anyway**. Only once.
 
-**You need:** a Mac with macOS 11 or later (Apple Silicon or Intel) and at least one AI agent account
+**On Windows**
+
+1. Download `NOVARA_<version>_windows_x64-setup.exe` from [Releases](https://github.com/elinahart/novara-releases/releases/latest).
+2. Open it and follow the installer.
+3. If Windows shows “Windows protected your PC” (the installer is not signed by Microsoft), click **More info**, then **Run anyway**.
+
+**You need:** a Mac with macOS 11 or later (Apple Silicon or Intel) or a PC with Windows 10 or 11 (64-bit), and at least one AI agent account
 (a Claude subscription, a ChatGPT account or a Google account).
 
 ---
@@ -236,9 +245,13 @@ valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 - Rien n'est collecté, aucune IA n'est entraînée sur tes fichiers par NOVARA.
 
 [**⬇ Télécharger pour macOS**](https://github.com/elinahart/novara-releases/releases/latest) ·
+[**⬇ Télécharger pour Windows**](https://github.com/elinahart/novara-releases/releases/latest) ·
 [**Site en français**](https://elinahart.github.io/novara-releases/fr.html) ·
 [**💜 Soutenir sur Ko-fi**](https://ko-fi.com/K4B229QS15)
 
-**Installer :** télécharge le `.dmg`, glisse NOVARA dans Applications. La première fois, macOS dit qu'il
+**Installer sur Mac :** télécharge le `.dmg`, glisse NOVARA dans Applications. La première fois, macOS dit qu'il
 ne peut pas vérifier l'app : ouvre **Réglages Système › Confidentialité et sécurité**, puis **Ouvrir
 quand même**.
+
+**Installer sur Windows :** télécharge `NOVARA_<version>_windows_x64-setup.exe` et lance-le. Si Windows affiche
+« Windows a protégé votre ordinateur », clique sur **Informations complémentaires**, puis **Exécuter quand même**.
