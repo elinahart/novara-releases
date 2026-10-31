@@ -419,3 +419,14 @@ main figure:not(.hero-shot) img:hover, .trio img:hover { transform: translateY(-
 .auto-grid figcaption b { color: var(--text); display: block; font-size: 17px; margin-bottom: 4px; }
 .auto-note { text-align: center; color: var(--muted); margin-top: 30px; }
 @media (max-width: 900px) { .auto-grid { grid-template-columns: 1fr; } }
+
+/* What's new */
+.new { padding-top: 72px; }
+.new-tag { display: table; margin: 0 auto 10px; padding: 5px 14px; border-radius: 999px; font-weight: 800; font-size: 0.85rem; letter-spacing: 0.04em; text-transform: uppercase; color: #fff; background: linear-gradient(135deg, var(--accent), var(--accent-2)); }
+.new-combo { position: relative; margin: 0; padding-right: 13%; }
+.new-combo > img { display: block; width: 100%; }
+.new-combo.tall { padding-right: 0; }
+.new-combo.tall > img { width: 58%; margin-left: 6%; }
+.new-combo.tall .phone-frame { right: 4%; bottom: 8%; width: 34%; }
+.new-combo .phone-frame { position: absolute; right: 0; bottom: -28px; width: 30%; max-width: 200px; margin: 0; transform: rotate(4deg); }
+@media (max-width: 900px) { .new-combo { padding-right: 0; padding-bottom: 40px; } .new-combo .phone-frame { width: 38%; bottom: -10px; } }

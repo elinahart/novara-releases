@@ -28,6 +28,7 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 
 ## Contents
 
+[New in 0.1.5](#new-in-015) ·
 [From one sentence to a game](#from-one-sentence-to-a-game) ·
 [A real team of agents](#a-real-team-of-agents) ·
 [You approve everything](#you-approve-everything) ·
@@ -42,6 +43,27 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 [Install](#install)
 
 ---
+
+## New in 0.1.5
+
+**Ultra saving mode.** One click and NOVARA shrinks to a small window: the town, animations and blur stop
+while your agents keep working (about **75 % less CPU** on our Mac). Approve, answer and talk to the
+coordinator from there — or from your phone, where you also choose where approvals arrive.
+
+**Chat.** A Chat view with one conversation per agent; the coordinator speaks plainly, the waiting
+approval stays pinned with a live preview, and your decisions stay in the thread to reopen, change or
+send back for a fix. Reports are written by NOVARA from the tasks: no extra tokens. Also on the phone.
+
+**Animation studio.** Watch your 3D characters' animations, scrub the timeline, pin a remark at the
+exact moment and send a change request to the agent who made it.
+
+<p align="center">
+  <img src="docs/img/ultra.jpg" alt="Ultra saving mode window" width="260">
+  <img src="docs/img/phone-chat.jpg" alt="Chat on the phone" width="200">
+  <img src="docs/img/phone-ultra.jpg" alt="Ultra mode on the phone" width="200">
+</p>
+<p align="center"><img src="docs/img/chat.jpg" alt="The chat view" width="760"></p>
+<p align="center"><img src="docs/img/animation-studio.jpg" alt="The animation studio" width="760"></p>
 
 ## From one sentence to a game
 
@@ -143,7 +165,7 @@ your computer.
 </p>
 
 Scan a QR code and your phone becomes a remote for your studio, over your own Wi-Fi: watch the town,
-follow agents and tasks, **approve assets, answer questions, play your game**, and play the mini-games
+chat with the coordinator, follow agents and tasks, **approve assets, answer questions, play your game**, and play the mini-games
 and shop with your computer's coins. The NOVARA **Android app**
 sends a notification when an agent needs you; any phone browser works, iPhone included.
 
@@ -238,6 +260,7 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.1.5 :** le mode ultra économie (petite fenêtre, environ 75 % de processeur en moins, pilotable depuis le téléphone), le chat avec ton équipe (sur ordinateur et téléphone, sans tokens en plus) et le studio d'animation 3D.
 - Une équipe d'agents autonome qui se répartit le travail, réserve ses fichiers et se vérifie mutuellement ; elle te demande de choisir et te propose des idées quand ton avis compte.
 - Des sons créés sur ton ordinateur par le synthé de NOVARA ([à écouter sur le site](https://elinahart.github.io/novara-releases/fr.html#sounds)).
 - Des assets faits sur ton ordinateur (Blender, Inkscape, Krita, GIMP, générateur d'images local, synthé de sons).
