@@ -17,7 +17,7 @@ Free forever · no subscription · no account · macOS · Windows</p>
 
 <p align="center"><img src="docs/img/hero-town.jpg" alt="Five AI agents and their roles, working on a game in NOVARA's little town" width="900"></p>
 
-NOVARA turns AI coding agents — **Claude Code**, **Codex** and **Gemini CLI** — into a game studio.
+NOVARA turns AI coding agents — **Claude Code**, **Codex** and **Gemini** — into a game studio.
 You describe your game in one sentence; a coordinator splits it into tasks and recruits agents for
 the code, the graphics, the sound and the tests; you approve every sprite, model and sound before it
 goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox Studio** and **Unity**.
@@ -128,8 +128,9 @@ royalty-free. **[Listen to them on the website →](https://elinahart.github.io/
 
 <img src="docs/img/ai-accounts.jpg" alt="AI accounts" width="600">
 
-Sign in to **Claude Code, Codex (ChatGPT) or Gemini CLI** from the app; NOVARA installs them for you.
-Pick your main AI. Connect online services when you need them: **Supabase, Cloudflare, Netlify,
+Sign in to **Claude Code, Codex (ChatGPT) or Gemini** from the app; NOVARA installs them for you.
+Pick a main AI and, if you like, other AIs to help it: NOVARA gives each one what it does best, and
+offers to switch AI when one runs out of tokens. Connect online services when you need them: **Supabase, Cloudflare, Netlify,
 Roblox Open Cloud**. Dictate to your agents with **local voice recognition**: your voice never leaves
 your computer.
 
@@ -142,7 +143,8 @@ your computer.
 </p>
 
 Scan a QR code and your phone becomes a remote for your studio, over your own Wi-Fi: watch the town,
-follow agents and tasks, **approve assets, answer questions, play your game**. The NOVARA **Android app**
+follow agents and tasks, **approve assets, answer questions, play your game**, and play the mini-games
+and shop with your computer's coins. The NOVARA **Android app**
 sends a notification when an agent needs you; any phone browser works, iPhone included.
 
 ## A studio that feels like a game
