@@ -55,6 +55,7 @@ better models. Mixamo animations are filed into the project by themselves.
 **A team that talks, a lighter app.** The coordinator tells you every step in the chat; agents can show you a
 prototype to get your opinion. Gemini works without asking permission for every file. Test reports are 30 times
 shorter for the agents, and NOVARA uses almost no CPU when you are not looking at it.
+Since 0.1.9 you can send a photo from your phone to the coordinator (a sketch, an idea, a bug).
 
 <p align="center"><img src="docs/img/blender-village-iso.jpg" alt="Isometric village made in Blender by a Gemini team" width="760"></p>
 
@@ -274,7 +275,7 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
-- **Nouveau dans la 0.1.7 :** Blender arrive avec 17 extensions et des packs de personnages libres : tes agents créent en une ligne personnages, arbres, rochers, terrains, maisons et sprites 2D isométriques, pour bien moins de tokens. Le coordinateur te parle à chaque étape, et Gemini travaille sans questions.
+- **Nouveau dans la 0.1.7 :** Blender arrive avec 17 extensions et des packs de personnages libres : tes agents créent en une ligne personnages, arbres, rochers, terrains, maisons et sprites 2D isométriques, pour bien moins de tokens. Le coordinateur te parle à chaque étape, et Gemini travaille sans questions. Depuis la 0.1.9, tu peux envoyer une photo au coordinateur depuis ton téléphone.
 - **Nouveau dans la 0.1.5 :** le mode ultra économie (petite fenêtre, environ 75 % de processeur en moins, pilotable depuis le téléphone), le chat avec ton équipe (sur ordinateur et téléphone, sans tokens en plus) et le studio d'animation 3D.
 - Une équipe d'agents autonome qui se répartit le travail, réserve ses fichiers et se vérifie mutuellement ; elle te demande de choisir et te propose des idées quand ton avis compte.
 - Des sons créés sur ton ordinateur par le synthé de NOVARA ([à écouter sur le site](https://elinahart.github.io/novara-releases/fr.html#sounds)).
