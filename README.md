@@ -28,6 +28,7 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 
 ## Contents
 
+[New in 0.1.7](#new-in-017) ·
 [New in 0.1.5](#new-in-015) ·
 [From one sentence to a game](#from-one-sentence-to-a-game) ·
 [A real team of agents](#a-real-team-of-agents) ·
@@ -43,6 +44,19 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 [Install](#install)
 
 ---
+
+## New in 0.1.7
+
+**Blender boosted.** NOVARA installs Blender with 17 free extensions and the MakeHuman character packs (CC0).
+Agents create in one line dressed human characters (skeleton and face sliders included), trees of 9 species,
+rocks, terrains, ivy, doors, windows, stairs, and 2D or isometric sprites rendered from 3D: fewer tokens,
+better models. Mixamo animations are filed into the project by themselves.
+
+**A team that talks, a lighter app.** The coordinator tells you every step in the chat; agents can show you a
+prototype to get your opinion. Gemini works without asking permission for every file. Test reports are 30 times
+shorter for the agents, and NOVARA uses almost no CPU when you are not looking at it.
+
+<p align="center"><img src="docs/img/blender-village-iso.jpg" alt="Isometric village made in Blender by a Gemini team" width="760"></p>
 
 ## New in 0.1.5
 
@@ -260,6 +274,7 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.1.7 :** Blender arrive avec 17 extensions et des packs de personnages libres : tes agents créent en une ligne personnages, arbres, rochers, terrains, maisons et sprites 2D isométriques, pour bien moins de tokens. Le coordinateur te parle à chaque étape, et Gemini travaille sans questions.
 - **Nouveau dans la 0.1.5 :** le mode ultra économie (petite fenêtre, environ 75 % de processeur en moins, pilotable depuis le téléphone), le chat avec ton équipe (sur ordinateur et téléphone, sans tokens en plus) et le studio d'animation 3D.
 - Une équipe d'agents autonome qui se répartit le travail, réserve ses fichiers et se vérifie mutuellement ; elle te demande de choisir et te propose des idées quand ton avis compte.
 - Des sons créés sur ton ordinateur par le synthé de NOVARA ([à écouter sur le site](https://elinahart.github.io/novara-releases/fr.html#sounds)).
