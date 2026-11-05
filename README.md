@@ -28,6 +28,7 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 
 ## Contents
 
+[New in 0.2.0](#new-in-020) ·
 [New in 0.1.7](#new-in-017) ·
 [New in 0.1.5](#new-in-015) ·
 [From one sentence to a game](#from-one-sentence-to-a-game) ·
@@ -44,6 +45,27 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 [Install](#install)
 
 ---
+
+## New in 0.2.0
+
+**A 5-step setup.** On first launch you tick the games you want to make and NOVARA picks the tools: one list
+in plain words, the total download and a single Install button. You connect Claude, ChatGPT (Codex) or Gemini
+without leaving the setup, choose French or English from the first screen, and NOVARA tells you honestly at
+the end if anything is missing.
+
+**ASCII Game.** A new kind of project: games made only of characters, in flat or isometric 2D, with grass,
+water, fireflies and shadows drawn in letters and symbols. Playable right away.
+
+**A thriftier, livelier team.** A free local AI sums up the logs on your computer, and agents talk to each
+other in English (fewer tokens) while answering you in your language. Every agent has a first name in the
+chat, reacts to your messages and shows when it is preparing an answer. Your phone also works away from home
+through Tailscale. Music gets 48 free real instruments and 18 styles; testers measure how smooth the game
+runs; the themes are redesigned and the whole interface is in English.
+
+<p align="center">
+  <img src="docs/img/install-games.jpg" alt="The new setup: tick the games you want to make" width="760">
+</p>
+<p align="center"><img src="docs/img/ascii-game.jpg" alt="An ASCII game, all in characters" width="760"></p>
 
 ## New in 0.1.7
 
@@ -275,6 +297,7 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.2.0 :** une installation en 5 étapes (tu coches tes jeux, NOVARA choisit les outils, un seul bouton Installer, tes comptes IA connectés tout de suite), un nouveau type de jeu ASCII Game tout en caractères, une IA locale gratuite qui économise des jetons, des agents qui se parlent en anglais entre eux et te répondent en français, le téléphone hors de chez toi avec Tailscale, 48 vrais instruments, des thèmes redessinés et l'interface en anglais.
 - **Nouveau dans la 0.1.7 :** Blender arrive avec 17 extensions et des packs de personnages libres : tes agents créent en une ligne personnages, arbres, rochers, terrains, maisons et sprites 2D isométriques, pour bien moins de tokens. Le coordinateur te parle à chaque étape, et Gemini travaille sans questions. Depuis la 0.1.9, tu peux envoyer une photo au coordinateur depuis ton téléphone.
 - **Nouveau dans la 0.1.5 :** le mode ultra économie (petite fenêtre, environ 75 % de processeur en moins, pilotable depuis le téléphone), le chat avec ton équipe (sur ordinateur et téléphone, sans tokens en plus) et le studio d'animation 3D.
 - Une équipe d'agents autonome qui se répartit le travail, réserve ses fichiers et se vérifie mutuellement ; elle te demande de choisir et te propose des idées quand ton avis compte.
