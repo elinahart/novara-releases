@@ -57,6 +57,7 @@ each connection; nothing goes through the Internet.
 
 **Lighter, safer.** NOVARA uses almost nothing while its window is hidden and starts twice as fast (the 3D
 engine loads only when needed). A secret key per agent, your OK before Blender scripts, sealed phone files.
+Since 0.2.2 you approve an object only once: its other formats, distant versions, textures and views follow your answer.
 
 <p align="center"><img src="docs/img/distance-connexion.jpg" alt="Remote mode: connect to my other computer" width="760"></p>
 
@@ -311,7 +312,7 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
-- **Nouveau dans la 0.2.1 :** pilote NOVARA depuis un portable, sur le Wi-Fi ou de partout avec Tailscale (« Seulement piloter un autre ordinateur » au premier lancement, code à 6 chiffres, projets, terminaux des agents, coordinateur et test du jeu depuis le portable ; plusieurs appareils, « Regarder seulement », alertes). Plus léger (presque rien quand la fenêtre est cachée, démarrage deux fois plus rapide) et plus sûr (une clé par agent, accord avant les scripts Blender).
+- **Nouveau dans la 0.2.1 :** pilote NOVARA depuis un portable, sur le Wi-Fi ou de partout avec Tailscale (« Seulement piloter un autre ordinateur » au premier lancement, code à 6 chiffres, projets, terminaux des agents, coordinateur et test du jeu depuis le portable ; plusieurs appareils, « Regarder seulement », alertes). Plus léger (presque rien quand la fenêtre est cachée, démarrage deux fois plus rapide) et plus sûr (une clé par agent, accord avant les scripts Blender). Depuis la 0.2.2, tu ne valides un objet qu'une fois : ses autres formats, ses versions de loin, ses textures et ses vues suivent ta réponse.
 - **Nouveau dans la 0.2.0 :** une installation en 5 étapes (tu coches tes jeux, NOVARA choisit les outils, un seul bouton Installer, tes comptes IA connectés tout de suite), un nouveau type de jeu ASCII Game tout en caractères, une IA locale gratuite qui économise des jetons, des agents qui se parlent en anglais entre eux et te répondent en français, le téléphone hors de chez toi avec Tailscale, 48 vrais instruments, des thèmes redessinés et l'interface en anglais.
 - **Nouveau dans la 0.1.7 :** Blender arrive avec 17 extensions et des packs de personnages libres : tes agents créent en une ligne personnages, arbres, rochers, terrains, maisons et sprites 2D isométriques, pour bien moins de tokens. Le coordinateur te parle à chaque étape, et Gemini travaille sans questions. Depuis la 0.1.9, tu peux envoyer une photo au coordinateur depuis ton téléphone.
 - **Nouveau dans la 0.1.5 :** le mode ultra économie (petite fenêtre, environ 75 % de processeur en moins, pilotable depuis le téléphone), le chat avec ton équipe (sur ordinateur et téléphone, sans tokens en plus) et le studio d'animation 3D.
