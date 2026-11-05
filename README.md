@@ -28,6 +28,7 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 
 ## Contents
 
+[New in 0.2.1](#new-in-021) ·
 [New in 0.2.0](#new-in-020) ·
 [New in 0.1.7](#new-in-017) ·
 [New in 0.1.5](#new-in-015) ·
@@ -45,6 +46,19 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 [Install](#install)
 
 ---
+
+## New in 0.2.1
+
+**Remote control.** A laptop (or a second computer) drives the NOVARA of a more powerful computer, over Wi-Fi
+or from anywhere with Tailscale. On first launch choose “Only control another computer” (nothing heavy gets
+installed), link it with a 6-digit code, open the projects over there, read and write in the agents' terminals,
+talk to the coordinator and test the game in your browser. Several devices, “Watch only”, “Remove”, an alert at
+each connection; nothing goes through the Internet.
+
+**Lighter, safer.** NOVARA uses almost nothing while its window is hidden and starts twice as fast (the 3D
+engine loads only when needed). A secret key per agent, your OK before Blender scripts, sealed phone files.
+
+<p align="center"><img src="docs/img/distance-connexion.jpg" alt="Remote mode: connect to my other computer" width="760"></p>
 
 ## New in 0.2.0
 
@@ -297,6 +311,7 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.2.1 :** pilote NOVARA depuis un portable, sur le Wi-Fi ou de partout avec Tailscale (« Seulement piloter un autre ordinateur » au premier lancement, code à 6 chiffres, projets, terminaux des agents, coordinateur et test du jeu depuis le portable ; plusieurs appareils, « Regarder seulement », alertes). Plus léger (presque rien quand la fenêtre est cachée, démarrage deux fois plus rapide) et plus sûr (une clé par agent, accord avant les scripts Blender).
 - **Nouveau dans la 0.2.0 :** une installation en 5 étapes (tu coches tes jeux, NOVARA choisit les outils, un seul bouton Installer, tes comptes IA connectés tout de suite), un nouveau type de jeu ASCII Game tout en caractères, une IA locale gratuite qui économise des jetons, des agents qui se parlent en anglais entre eux et te répondent en français, le téléphone hors de chez toi avec Tailscale, 48 vrais instruments, des thèmes redessinés et l'interface en anglais.
 - **Nouveau dans la 0.1.7 :** Blender arrive avec 17 extensions et des packs de personnages libres : tes agents créent en une ligne personnages, arbres, rochers, terrains, maisons et sprites 2D isométriques, pour bien moins de tokens. Le coordinateur te parle à chaque étape, et Gemini travaille sans questions. Depuis la 0.1.9, tu peux envoyer une photo au coordinateur depuis ton téléphone.
 - **Nouveau dans la 0.1.5 :** le mode ultra économie (petite fenêtre, environ 75 % de processeur en moins, pilotable depuis le téléphone), le chat avec ton équipe (sur ordinateur et téléphone, sans tokens en plus) et le studio d'animation 3D.
