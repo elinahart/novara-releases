@@ -430,3 +430,29 @@ main figure:not(.hero-shot) img:hover, .trio img:hover { transform: translateY(-
 .new-combo.tall .phone-frame { right: 4%; bottom: 8%; width: 34%; }
 .new-combo .phone-frame { position: absolute; right: 0; bottom: -28px; width: 30%; max-width: 200px; margin: 0; transform: rotate(4deg); }
 @media (max-width: 900px) { .new-combo { padding-right: 0; padding-bottom: 40px; } .new-combo .phone-frame { width: 38%; bottom: -10px; } }
+
+/* Guide and FAQ pages */
+.doc { display: grid; grid-template-columns: 240px minmax(0, 760px); gap: 48px; max-width: 1080px; margin: 0 auto; padding: 110px 24px 80px; align-items: start; }
+.doc-toc { position: sticky; top: 90px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; max-height: calc(100vh - 110px); overflow-y: auto; }
+.doc-toc b { margin-bottom: 6px; }
+.doc-toc a { color: var(--muted); text-decoration: none; }
+.doc-toc a:hover { color: var(--text); }
+.doc h1 { font-size: clamp(34px, 4.4vw, 50px); }
+.doc h2 { font-size: 26px; text-align: left; margin: 44px 0 14px; scroll-margin-top: 90px; }
+.doc p, .doc li, .doc td { color: var(--muted); line-height: 1.65; }
+.doc b { color: var(--text); }
+.doc li { margin-bottom: 6px; }
+.doc code { font-size: 0.92em; padding: 1px 5px; border-radius: 5px; background: color-mix(in srgb, var(--text) 10%, transparent); overflow-wrap: anywhere; }
+.doc figure { margin: 18px 0; }
+.doc figure img { display: block; max-width: 100%; max-height: 460px; border-radius: 12px; }
+.doc-table { overflow-x: auto; }
+.doc table { border-collapse: collapse; width: 100%; font-size: 15px; }
+.doc th, .doc td { padding: 9px 12px; text-align: left; border-bottom: 1px solid color-mix(in srgb, var(--text) 16%, transparent); }
+.doc details { border-bottom: 1px solid color-mix(in srgb, var(--text) 16%, transparent); padding: 12px 0; }
+.doc summary { cursor: pointer; font-weight: 650; color: var(--text); }
+.doc details p { margin: 10px 0 2px; }
+@media (max-width: 860px) {
+  .doc { grid-template-columns: minmax(0, 1fr); gap: 20px; padding: 90px 16px 60px; }
+  .doc-toc { display: none; }
+}
+.top nav a { white-space: nowrap; }

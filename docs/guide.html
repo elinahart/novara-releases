@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en" data-theme="dark-aero">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NOVARA — NOVARA guide</title>
+<meta name="description" content="Everything you need to install NOVARA, make your first game and go further. You don&#x27;t need to know how to code. Looking for something specific? See the FAQ.">
+<link rel="icon" href="img/novara-icon.png">
+<link rel="stylesheet" href="style.css?v=16">
+<script src="site.js?v=14" defer></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html"><img src="img/novara-icon.png" alt="" width="32" height="32"><span>NOVARA</span></a>
+  <nav>
+    <a href="index.html#new023">New</a>
+    <a href="index.html#how">How it works</a>
+    <a href="index.html#features">Features</a>
+    <a href="index.html#phone">Phone</a>
+    <a href="index.html#community">Plugins</a>
+    <a href="guide.html">Guide</a>
+    <a href="faq.html">FAQ</a>
+    <div class="theme-picker" role="group" aria-label="Site theme">
+      <button data-set-theme="dark-aero" style="--sw: linear-gradient(135deg,#0b1024,#3cc6ee)" title="Dark Aero" aria-label="Dark Aero"></button>
+      <button data-set-theme="aero" style="--sw: linear-gradient(135deg,#6db7ef,#e3f0ff)" title="Frutiger Aero" aria-label="Frutiger Aero"></button>
+      <button data-set-theme="technozen" style="--sw: linear-gradient(135deg,#f4efe4,#4a7350)" title="Technozen" aria-label="Technozen"></button>
+      <button data-set-theme="metro" style="--sw: linear-gradient(135deg,#0063b1 50%,#c30052 50%)" title="Frutiger Metro" aria-label="Frutiger Metro"></button>
+    </div>
+    <a href="guide-fr.html" lang="fr">FR</a>
+    <a class="btn small donate-mini" href="https://ko-fi.com/K4B229QS15" target="_blank" rel="noopener"><svg class="mug" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h14v6a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5z" fill="currentColor" opacity=".25"/><path d="M3 7h14v6a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5zM17 9h1.5a2.5 2.5 0 0 1 0 5H17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 15.2s-3-1.8-3-3.6a1.6 1.6 0 0 1 3-.8 1.6 1.6 0 0 1 3 .8c0 1.8-3 3.6-3 3.6z" fill="currentColor"/></svg><span>Support</span></a>
+    <a class="btn small" href="https://github.com/elinahart/novara-releases/releases/latest">Download</a>
+  </nav>
+</header>
+<main class="doc">
+<nav class="doc-toc" aria-label="Contents"><b>Contents</b><a href="#s1-1-what-you-need">1. What you need</a><a href="#s2-2-install-novara">2. Install NOVARA</a><a href="#s3-3-first-launch-in-5-steps">3. First launch, in 5 steps</a><a href="#s4-4-make-your-first-game">4. Make your first game</a><a href="#s5-5-the-project-screen">5. The project screen</a><a href="#s6-6-working-with-the-agents">6. Working with the agents</a><a href="#s7-7-approving-assets">7. Approving assets</a><a href="#s8-8-testing-your-game">8. Testing your game</a><a href="#s9-9-the-library-and-3d-previews">9. The library and 3D previews</a><a href="#s10-10-characters-and-voices">10. Characters and voices</a><a href="#s11-11-studio-workshop-and-animations">11. Studio, Workshop and Animations</a><a href="#s12-12-novara-on-your-phone-and-from-afar">12. NOVARA on your phone and from afar</a><a href="#s13-13-saving-tokens-and-memory">13. Saving tokens and memory</a><a href="#s14-14-coming-back-later">14. Coming back later</a><a href="#s15-15-releasing-your-game">15. Releasing your game</a><a href="#s16-16-the-game-side-of-novara">16. The game side of NOVARA</a><a href="#s17-17-need-help">17. Need help?</a></nav>
+<article>
+<h1>NOVARA guide</h1>
+<p>Everything you need to install NOVARA, make your first game and go further. You don't need to know how to code. Looking for something specific? See the <a href="faq.html">FAQ</a>.</p>
+<h2 id="s1-1-what-you-need">1. What you need</h2>
+<ul>
+<li>A Mac with macOS 11 or later (Apple Silicon or Intel), or a PC with Windows 10 or 11 (64-bit).</li>
+<li>At least one AI account: a Claude subscription, a ChatGPT account or a Google account. NOVARA is free, but the agents use your own account.</li>
+<li>Disk space for the tools you choose to install (Blender, the image generator…).</li>
+</ul>
+<h2 id="s2-2-install-novara">2. Install NOVARA</h2>
+<p><b>On Mac</b></p>
+<ol>
+<li>Download <code>NOVARA_&lt;version&gt;_macos.dmg</code> from the <a href="https://github.com/elinahart/novara-releases/releases/latest" target="_blank" rel="noopener">releases page</a>.</li>
+<li>Open it and drag <b>NOVARA</b> into <b>Applications</b>.</li>
+<li>The first time, macOS says it cannot check the app, because it is not notarised by Apple. Open <b>System Settings › Privacy &amp; Security</b>, scroll down and click <b>Open Anyway</b>. You only do this once.</li>
+</ol>
+<p><b>On Windows</b></p>
+<ol>
+<li>Download <code>NOVARA_&lt;version&gt;_windows_x64-setup.exe</code> from the <a href="https://github.com/elinahart/novara-releases/releases/latest" target="_blank" rel="noopener">releases page</a>.</li>
+<li>Open it and follow the installer.</li>
+<li>If Windows shows “Windows protected your PC”, click <b>More info</b>, then <b>Run anyway</b>.</li>
+</ol>
+<h2 id="s3-3-first-launch-in-5-steps">3. First launch, in 5 steps</h2>
+<figure><img src="img/install-games.jpg" alt="Choosing your games during setup" loading="lazy"></figure>
+<ol>
+<li><b>Welcome</b>: choose to install NOVARA on this computer. The other choice, “Only control another computer”, is for a laptop that drives a more powerful computer (see part 12).</li>
+<li><b>Your games</b>: tick the games you want to make. NOVARA picks the tools and shows you the list. You only have one button to click.</li>
+<li><b>AI accounts</b>: connect Claude Code, Codex or Gemini. NOVARA installs them for you.</li>
+<li><b>Your style</b>: choose your theme and your character.</li>
+<li><b>Ready</b>: NOVARA really checks that everything works and tells you what is missing.</li>
+</ol>
+<h2 id="s4-4-make-your-first-game">4. Make your first game</h2>
+<figure><img src="img/new-project.jpg" alt="The New project window" loading="lazy"></figure>
+<ol>
+<li>On the home screen, click <b>New project</b>.</li>
+<li>Choose the kind of game: <b>2D web game</b>, <b>3D web game</b>, <b>Roblox Studio</b>, <b>Unity</b> or <b>ASCII Game</b> (all characters, flat or isometric view).</li>
+<li>Describe your game in one sentence, name it, choose a style and a size: <b>Small prototype</b> or <b>Full game</b>.</li>
+<li>Confirm. The coordinator splits your idea into tasks and recruits the agents.</li>
+</ol>
+<p>Already have a game folder? Use <b>Link an existing folder</b> on the home screen.</p>
+<h2 id="s5-5-the-project-screen">5. The project screen</h2>
+<p>The menu follows the life of a game, in four steps.</p>
+<div class="doc-table"><table><thead><tr><th>Step</th><th>Menus</th><th>What it is for</th></tr></thead><tbody><tr><td>1. Idea</td><td>Team, Tasks</td><td>See who does what, open problems, progress</td></tr><tr><td>2. Build</td><td>Agents, Studio, Animations, Characters, Workshop, Library</td><td>Talk to the agents, make and store assets</td></tr><tr><td>3. Approval</td><td>Approvals</td><td>Give your opinion on each asset</td></tr><tr><td>4. Release</td><td>Release</td><td>Prepare the game's page and pictures</td></tr></tbody></table></div>
+<p>At the top right, <b>Test</b> starts your game, <b>Start a test run</b> (Unity and Roblox) runs it a few seconds in the engine and shows its errors, <b>Check</b> checks the project, and <b>Add an agent</b> recruits one more. <b>Project settings</b> gathers the choices of this project.</p>
+<h2 id="s6-6-working-with-the-agents">6. Working with the agents</h2>
+<figure><img src="img/chat.jpg" alt="The chat with the coordinator" loading="lazy"></figure>
+<ul>
+<li><b>The coordinator</b> can be the only one you talk to. Write your objective: it shares out the work and tells you how it goes. It carries your character's name and says “I”.</li>
+<li><b>The views</b>: <b>Agent windows</b> shows their terminals, <b>Town</b> shows each agent in their house, <b>Chat</b> shows the conversation.</li>
+<li><b>Pictures</b>: paste a picture in the message box with Cmd+V (Ctrl+V on Windows).</li>
+<li><b>Your voice</b>: you can dictate your messages. Recognition runs on your computer.</li>
+<li><b>How many agents</b>: up to 6, depending on what your computer can handle. NOVARA suggests a team in “Resources and agents”.</li>
+</ul>
+<p>Agents talk to each other in English, because it costs fewer tokens. Everything meant for you stays in your language.</p>
+<h2 id="s7-7-approving-assets">7. Approving assets</h2>
+<figure><img src="img/approve-basket.jpg" alt="Approving a sprite sheet" loading="lazy"></figure>
+<p>When an agent makes a sprite, a 3D model, an interface or a sound, NOVARA checks it and then shows it to you. You answer <b>Approve</b>, <b>Refuse</b> or <b>Ask for a fix</b>, with a comment if you like.</p>
+<ul>
+<li>One approval per object: its other formats, textures and views follow your answer.</li>
+<li>A 3D model's animation plays in the window, one by one, never as a mere picture.</li>
+<li>You can come back on a decision from the chat.</li>
+</ul>
+<h2 id="s8-8-testing-your-game">8. Testing your game</h2>
+<p>Click <b>Test</b>. NOVARA starts the game and reads its errors so the agents can fix them. Web games can also be played on your phone. For Unity, NOVARA opens the game in the editor.</p>
+<h2 id="s9-9-the-library-and-3d-previews">9. The library and 3D previews</h2>
+<figure><img src="img/library.jpg" alt="The library" loading="lazy"></figure>
+<p>Each project has its library, and the <b>central library</b> serves all your projects. It holds models, pictures, sounds, versions, variants and favourites.</p>
+<p>Click a model to turn it around. <b>GLB, GLTF, FBX and OBJ</b> files open with their textures, and their animations play with a timeline. STL, PLY, DAE, 3DS, 3MF and USDZ are supported too. <code>.blend</code> files do not open in the preview: they need Blender.</p>
+<h2 id="s10-10-characters-and-voices">10. Characters and voices</h2>
+<p>The <b>Characters</b> menu lists your game's characters, as the agents register them. For each one, choose a voice already in NOVARA. The coordinator is told right away that this character has this voice.</p>
+<ul>
+<li>Add a voice in <b>Workshop › Voice</b>, or from the phone's <b>Voices</b> tab.</li>
+<li>A voice is always a copy of a real voice: the person must have agreed, and NOVARA asks for it.</li>
+</ul>
+<h2 id="s11-11-studio-workshop-and-animations">11. Studio, Workshop and Animations</h2>
+<ul>
+<li><b>Studio</b>: ask for an asset in plain words. NOVARA shows its plan before it starts.</li>
+<li><b>Workshop</b>: sounds, music, ambiences, voices and effects, made on your computer.</li>
+<li><b>Animations</b>: watch your 3D characters' animations, pin a remark at the right moment and send it to the agent. This menu is there for 3D games.</li>
+</ul>
+<h2 id="s12-12-novara-on-your-phone-and-from-afar">12. NOVARA on your phone and from afar</h2>
+<figure><img src="img/phone-town-dark.jpg" alt="NOVARA on the phone" loading="lazy"></figure>
+<p><b>Link your phone</b></p>
+<ol>
+<li>Click <b>My phone</b> at the top of NOVARA.</li>
+<li>Scan the QR code, with your phone on the same Wi-Fi as the computer.</li>
+<li>On Android, install the NOVARA app offered by the page: it tells you when an agent needs you. On iPhone, the browser is enough.</li>
+</ol>
+<p>You get the <b>Town</b>, <b>Chat</b>, <b>Tasks</b>, <b>Approve</b>, <b>Library</b> and <b>Voices</b> tabs.</p>
+<ul>
+<li><b>Library</b>: look at every asset, with 3D models and their animations, and add photos or any file to the project (200 MB at most).</li>
+<li><b>Chat</b>: write to the coordinator and send it a photo.</li>
+<li><b>Voices</b>: give a character a voice or record someone, with their consent.</li>
+</ul>
+<p><b>Away from home</b>: install Tailscale on the computer and the phone. NOVARA then shows a second QR code.</p>
+<p><b>From a laptop</b>: on the laptop, choose “Only control another computer” on first launch. Link it with the 6-digit code of the big computer, in <b>Remote</b>. Nothing goes through the Internet, you can remove a device at any time, and “Watch only” stops it from changing anything.</p>
+<h2 id="s13-13-saving-tokens-and-memory">13. Saving tokens and memory</h2>
+<ul>
+<li><b>Eco, Balanced, Performance</b>: choose how powerful the AI models are for each project. Eco uses the fewest tokens.</li>
+<li><b>Ultra eco</b>: limits the project to 2 agents and cuts token use.</li>
+<li><b>Light mode</b>: saves your computer's memory and CPU. Handy on a small machine.</li>
+<li>Pictures, sounds and music made by local tools cost no tokens.</li>
+</ul>
+<h2 id="s14-14-coming-back-later">14. Coming back later</h2>
+<p>When you reopen a project, NOVARA shows where you were: what is done, what is left and the interrupted agents. <b>Restart all</b> or <b>Restart</b> goes on with the same team. <b>Later</b> just closes the window, without starting any agent.</p>
+<h2 id="s15-15-releasing-your-game">15. Releasing your game</h2>
+<p>The <b>Release</b> menu opens the <b>Release kit</b>: an AI of your choice plays the game, takes real screenshots and writes the store page in French or English. You correct the texts, and NOVARA prepares the pictures at Steam's official sizes.</p>
+<h2 id="s16-16-the-game-side-of-novara">16. The game side of NOVARA</h2>
+<ul>
+<li><b>Themes</b>: they change the whole app, and you can make one with an AI. Three themes are secret.</li>
+<li><b>Mini-games</b>: click things in your town. One point gives one coin.</li>
+<li><b>Shop</b>: spend your coins on buildings, characters, hats and pets.</li>
+<li><b>Creations and plugins</b>: install the community's themes, game templates and guides, or share yours.</li>
+</ul>
+<h2 id="s17-17-need-help">17. Need help?</h2>
+<p>See the <a href="faq.html">FAQ</a>. If you find a bug, use <b>Report a bug</b> in NOVARA or open an issue on <a href="https://github.com/elinahart/novara-releases/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+</article>
+</main>
+<footer>
+  <img src="img/novara-icon.png" alt="" width="28" height="28">
+  <p><span class="footer-docs"><a href="guide.html">Guide</a> · <a href="faq.html">FAQ</a> · </span>NOVARA by Elina · <a href="https://github.com/elinahart/novara-releases">Downloads</a> · <a href="https://github.com/elinahart/novara-creations">Creations</a> · <a href="https://ko-fi.com/K4B229QS15" target="_blank" rel="noopener">Support on Ko-fi</a></p>
+</footer>
+</body>
+</html>

@@ -11,6 +11,8 @@ Free forever · no subscription · no account · macOS · Windows</p>
   <a href="https://github.com/elinahart/novara-releases/releases/latest"><b>⬇ Download for macOS</b></a> ·
   <a href="https://github.com/elinahart/novara-releases/releases/latest"><b>⬇ Download for Windows</b></a> ·
   <a href="https://elinahart.github.io/novara-releases/"><b>🌐 Website</b></a> ·
+  <a href="GUIDE.md"><b>📖 Guide</b></a> ·
+  <a href="FAQ.md"><b>❓ FAQ</b></a> ·
   <a href="https://github.com/elinahart/novara-creations"><b>🎨 Community creations</b></a> ·
   <a href="https://ko-fi.com/K4B229QS15"><b>💜 Support on Ko-fi</b></a>
 </p>
@@ -22,12 +24,13 @@ You describe your game in one sentence; a coordinator splits it into tasks and r
 the code, the graphics, the sound and the tests; you approve every sprite, model and sound before it
 goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox Studio** and **Unity**.
 
-*Version française plus bas · [Site en français](https://elinahart.github.io/novara-releases/fr.html)*
+*Version française plus bas · [Site en français](https://elinahart.github.io/novara-releases/fr.html) · [Guide en français](GUIDE.fr.md) · [FAQ en français](FAQ.fr.md)*
 
 ---
 
 ## Contents
 
+[New in 0.2.3](#new-in-023) ·
 [New in 0.2.1](#new-in-021) ·
 [New in 0.2.0](#new-in-020) ·
 [New in 0.1.7](#new-in-017) ·
@@ -46,6 +49,14 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 [Install](#install)
 
 ---
+
+## New in 0.2.3
+
+**3D everywhere.** FBX, OBJ, STL and PLY files now open like GLB, in the library and on the phone, with their
+textures and animations. **Characters menu:** give each character a voice and the coordinator is told right away.
+
+**Phone.** The whole library with filters, photos and any file added to the project, and a Voices tab to record
+someone with their consent (install the Android app 1.8).
 
 ## New in 0.2.1
 
@@ -312,6 +323,7 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.2.3 :** les FBX, OBJ, STL et PLY s'ouvrent dans la bibliothèque et sur le téléphone, avec textures et animations ; menu Personnages pour donner une voix à chacun ; sur le téléphone, toute la bibliothèque, l'ajout de photos et de fichiers, et un onglet Voix (app Android 1.8).
 - **Nouveau dans la 0.2.1 :** pilote NOVARA depuis un portable, sur le Wi-Fi ou de partout avec Tailscale (« Seulement piloter un autre ordinateur » au premier lancement, code à 6 chiffres, projets, terminaux des agents, coordinateur et test du jeu depuis le portable ; plusieurs appareils, « Regarder seulement », alertes). Plus léger (presque rien quand la fenêtre est cachée, démarrage deux fois plus rapide) et plus sûr (une clé par agent, accord avant les scripts Blender). Depuis la 0.2.2, tu ne valides un objet qu'une fois : ses autres formats, ses versions de loin, ses textures et ses vues suivent ta réponse.
 - **Nouveau dans la 0.2.0 :** une installation en 5 étapes (tu coches tes jeux, NOVARA choisit les outils, un seul bouton Installer, tes comptes IA connectés tout de suite), un nouveau type de jeu ASCII Game tout en caractères, une IA locale gratuite qui économise des jetons, des agents qui se parlent en anglais entre eux et te répondent en français, le téléphone hors de chez toi avec Tailscale, 48 vrais instruments, des thèmes redessinés et l'interface en anglais.
 - **Nouveau dans la 0.1.7 :** Blender arrive avec 17 extensions et des packs de personnages libres : tes agents créent en une ligne personnages, arbres, rochers, terrains, maisons et sprites 2D isométriques, pour bien moins de tokens. Le coordinateur te parle à chaque étape, et Gemini travaille sans questions. Depuis la 0.1.9, tu peux envoyer une photo au coordinateur depuis ton téléphone.
