@@ -30,6 +30,7 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 
 ## Contents
 
+[New in 0.2.5](#new-in-025) ·
 [New in 0.2.3](#new-in-023) ·
 [New in 0.2.1](#new-in-021) ·
 [New in 0.2.0](#new-in-020) ·
@@ -49,6 +50,14 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 [Install](#install)
 
 ---
+
+## New in 0.2.5
+
+**Liquid glass.** Every theme gets a new glass effect, each with its own material.
+
+**A real messaging app.** Conversations on the left, faces beside the messages, approvals and questions in the thread, and small gameplay ideas from your agents at the bottom of the chat.
+
+**Remote.** The same views as on the PC, the library with its 3D renders, a shared shop, and a thrifty mini window on the project's PC. Light mode saves memory and CPU without changing the number of agents.
 
 ## New in 0.2.3
 
@@ -323,6 +332,7 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.2.5 :** du verre liquide sur tous les thèmes ; une Discussion façon messagerie, avec les petites idées de gameplay de tes agents ; à distance, les mêmes vues que sur le PC, la bibliothèque 3D, la boutique partagée et une mini-fenêtre économe.
 - **Nouveau dans la 0.2.3 :** les FBX, OBJ, STL et PLY s'ouvrent dans la bibliothèque et sur le téléphone, avec textures et animations ; menu Personnages pour donner une voix à chacun ; sur le téléphone, toute la bibliothèque, l'ajout de photos et de fichiers, et un onglet Voix (app Android 1.8).
 - **Nouveau dans la 0.2.1 :** pilote NOVARA depuis un portable, sur le Wi-Fi ou de partout avec Tailscale (« Seulement piloter un autre ordinateur » au premier lancement, code à 6 chiffres, projets, terminaux des agents, coordinateur et test du jeu depuis le portable ; plusieurs appareils, « Regarder seulement », alertes). Plus léger (presque rien quand la fenêtre est cachée, démarrage deux fois plus rapide) et plus sûr (une clé par agent, accord avant les scripts Blender). Depuis la 0.2.2, tu ne valides un objet qu'une fois : ses autres formats, ses versions de loin, ses textures et ses vues suivent ta réponse.
 - **Nouveau dans la 0.2.0 :** une installation en 5 étapes (tu coches tes jeux, NOVARA choisit les outils, un seul bouton Installer, tes comptes IA connectés tout de suite), un nouveau type de jeu ASCII Game tout en caractères, une IA locale gratuite qui économise des jetons, des agents qui se parlent en anglais entre eux et te répondent en français, le téléphone hors de chez toi avec Tailscale, 48 vrais instruments, des thèmes redessinés et l'interface en anglais.

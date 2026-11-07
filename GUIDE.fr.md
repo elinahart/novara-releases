@@ -61,6 +61,7 @@ En haut à droite : **Tester** lance ton jeu, **Lancer une partie** (Unity et Ro
 ![Le chat avec le coordinateur](docs/img/chat.jpg)
 
 - **Le coordinateur** est ton seul interlocuteur si tu veux. Écris-lui ton objectif : il répartit le travail et te raconte l'avancement. Il porte le nom de ton personnage et il dit « je ».
+- **Les idées** : au-dessus de la zone de message, NOVARA et les agents proposent de petites idées, comme « Rendre les monstres plus forts ». Clique pour la mettre dans ton message, ou sur la croix pour la retirer.
 - **Les vues** : **Fenêtres d'agent** montre leurs terminaux, **Ville** montre chaque agent dans sa maison, **Discussion** montre le chat.
 - **Les images** : colle une image dans la zone de message avec Cmd+V (Ctrl+V sur Windows).
 - **Ta voix** : tu peux dicter tes messages. La reconnaissance se fait sur ton ordinateur.
@@ -127,7 +128,7 @@ Tu retrouves les onglets **Ville**, **Chat**, **Tâches**, **Valider**, **Biblio
 
 - **Éco, Équilibré, Performance** : choisis la puissance des modèles IA pour chaque projet. Éco coûte le moins de jetons.
 - **Ultra éco** : limite le projet à 2 agents et réduit la consommation de jetons.
-- **Mode léger** : économise la mémoire et le processeur de ton ordinateur. Pratique sur une petite machine.
+- **Mode léger** : économise la mémoire et le processeur de ton ordinateur, sans toucher au nombre d'agents. Pratique sur une petite machine.
 - Images, sons et musiques faits par les outils locaux ne coûtent aucun jeton.
 
 ## 14. Reprendre plus tard

@@ -61,6 +61,7 @@ At the top right, **Test** starts your game, **Start a test run** (Unity and Rob
 ![The chat with the coordinator](docs/img/chat.jpg)
 
 - **The coordinator** can be the only one you talk to. Write your objective: it shares out the work and tells you how it goes. It carries your character's name and says “I”.
+- **Ideas**: above the message box, NOVARA and the agents suggest small ideas, like “Make the monsters stronger”. Click one to put it in your message, or the cross to remove it.
 - **The views**: **Agent windows** shows their terminals, **Town** shows each agent in their house, **Chat** shows the conversation.
 - **Pictures**: paste a picture in the message box with Cmd+V (Ctrl+V on Windows).
 - **Your voice**: you can dictate your messages. Recognition runs on your computer.
@@ -127,7 +128,7 @@ You get the **Town**, **Chat**, **Tasks**, **Approve**, **Library** and **Voices
 
 - **Eco, Balanced, Performance**: choose how powerful the AI models are for each project. Eco uses the fewest tokens.
 - **Ultra eco**: limits the project to 2 agents and cuts token use.
-- **Light mode**: saves your computer's memory and CPU. Handy on a small machine.
+- **Light mode**: saves your computer's memory and CPU, without changing the number of agents. Handy on a small machine.
 - Pictures, sounds and music made by local tools cost no tokens.
 
 ## 14. Coming back later
