@@ -106,6 +106,18 @@ GLB, GLTF, FBX, OBJ, STL, PLY, DAE, 3DS, 3MF et USDZ, sur l'ordinateur et sur le
 
 NOVARA cherche les textures à côté du modèle, dans un dossier `<nom>.fbm` ou dans un dossier `textures`. Si elles sont ailleurs, le modèle s'affiche sans elles.
 
+### Puis-je mettre les ressources gratuites dans un jeu que je vends ?
+
+Oui. NOVARA ne garde que des licences qui le permettent (CC0, CC-BY, MIT, ISC, OFL, licence Pixabay) et refuse les autres. Chaque fichier est inscrit dans `CREDITS.md` ; pour les licences CC-BY, mets le texte de crédit dans le générique de ton jeu.
+
+### Comment avoir un jeu en style manga ou BD ?
+
+Choisis le style **Manga / BD** ou **Anime** pour ton projet. Les agents utilisent alors des ombres franches, un contour encré et les polices BD Bangers et Comic Neue. Avant de te montrer un modèle, ils le comparent à des images de vrais jeux de ce style.
+
+### L'image vers 3D marche-t-elle sur mon ordinateur ?
+
+TripoSR tourne sur les Mac à puce Apple et sur les PC (plus vite avec une carte NVIDIA). Il ne marche pas sur les Mac à processeur Intel. TRELLIS demande une carte NVIDIA avec 16 Go de mémoire vidéo. Dans tous les cas, c'est un brouillon que les agents retravaillent.
+
 ### Comment signaler un bug ?
 
 Utilise **Signaler un bug** dans NOVARA ou ouvre un ticket sur [GitHub](https://github.com/elinahart/novara-releases/issues).

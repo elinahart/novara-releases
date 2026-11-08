@@ -98,11 +98,16 @@ Le menu **Personnages** liste les personnages de ton jeu, tels que les agents le
 - Ajoute une voix dans **Atelier › Voix**, ou depuis l'onglet **Voix** du téléphone.
 - Une voix est toujours la copie d'une vraie voix : la personne doit avoir donné son accord, et NOVARA le lui demande.
 
+**Créer un personnage.** Dans le menu **Personnages**, **Créer un personnage** fabrique un personnage 3D avec Blender : règle le corps avec les curseurs (ils restent dans des proportions humaines), choisis un style (réaliste, héros de BD, manga, cartoon, chibi), des traits de visage, une tenue ou des habits ajustés au corps. Il arrive avec un squelette prêt pour les animations Mixamo. Tu peux aussi importer un personnage fait dans **VRoid Studio** (`.vrm`) : NOVARA le garde tel quel.
+
 ## 11. Studio, Atelier et Animations
 
 - **Studio** : demande une ressource en mots simples. NOVARA montre son plan avant de commencer.
 - **Atelier** : sons, musiques, ambiances, voix et effets, créés sur ton ordinateur.
 - **Animations** : regarde les animations de tes personnages 3D, place une remarque au bon moment et envoie-la à l'agent. Ce menu existe pour les jeux en 3D.
+- **Ressources libres** (dans le Studio) : matières, ciels, sons, icônes, touches de clavier et de manette, polices, gratuits et utilisables dans un jeu vendu (Poly Haven, ambientCG, Kenney, Quaternius, KayKit…). Chaque fichier est inscrit dans les crédits du jeu (`CREDITS.md`), avec le texte à copier dans ton générique.
+- **Image vers 3D** (facultatif, Réglages › Installation) : à partir d'une image, les agents obtiennent un brouillon de modèle 3D qu'ils retravaillent ensuite dans Blender. TripoSR marche sur les Mac à puce Apple (environ deux minutes et demie sur un Mac M1 de 8 Go) et sur les PC ; TRELLIS demande une carte NVIDIA avec 16 Go de mémoire vidéo.
+- **Pixelorama et Laigter** (facultatifs, Réglages › Installation) : pixel art, animations et tuiles, et relief des sprites 2D pour la lumière.
 
 ## 12. NOVARA sur ton téléphone et à distance
 

@@ -98,11 +98,16 @@ The **Characters** menu lists your game's characters, as the agents register the
 - Add a voice in **Workshop › Voice**, or from the phone's **Voices** tab.
 - A voice is always a copy of a real voice: the person must have agreed, and NOVARA asks for it.
 
+**Create a character.** In the **Characters** menu, **Create a character** makes a 3D character with Blender: shape the body with the sliders (they stay within human proportions), pick a style (realistic, comic hero, manga, cartoon, chibi), face features, an outfit or clothes fitted to the body. It comes with a skeleton ready for Mixamo animations. You can also import a character made in **VRoid Studio** (`.vrm`): NOVARA keeps it as it is.
+
 ## 11. Studio, Workshop and Animations
 
 - **Studio**: ask for an asset in plain words. NOVARA shows its plan before it starts.
 - **Workshop**: sounds, music, ambiences, voices and effects, made on your computer.
 - **Animations**: watch your 3D characters' animations, pin a remark at the right moment and send it to the agent. This menu is there for 3D games.
+- **Free resources** (in the Studio): materials, skies, sounds, icons, keyboard and gamepad key prompts, fonts, free and usable in a game you sell (Poly Haven, ambientCG, Kenney, Quaternius, KayKit…). Every file is written in the game's credits (`CREDITS.md`), with the text to copy into your end credits.
+- **Image to 3D** (optional, Settings › Installation): from a picture, the agents get a draft 3D model that they then rework in Blender. TripoSR runs on Apple-chip Macs (about two and a half minutes on an 8 GB M1 Mac) and on PCs; TRELLIS needs an NVIDIA card with 16 GB of video memory.
+- **Pixelorama and Laigter** (optional, Settings › Installation): pixel art, animations and tiles, and 2D sprite relief for lighting.
 
 ## 12. NOVARA on your phone and from afar
 

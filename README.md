@@ -30,6 +30,7 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 
 ## Contents
 
+[New in 0.2.6](#new-in-026) ·
 [New in 0.2.5](#new-in-025) ·
 [New in 0.2.3](#new-in-023) ·
 [New in 0.2.1](#new-in-021) ·
@@ -50,6 +51,14 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 [Install](#install)
 
 ---
+
+## New in 0.2.6
+
+**Manga and comic book.** Real cel shading (hard shadows, inked outline, screentones) and comic fonts. 3D models get richer shapes, and before showing you a model, the agent compares it with pictures from a real game in the same style.
+
+**Characters.** A 3D character creator (body, face, fitted clothes, comic, manga and cartoon styles) and VRoid import, in the Characters menu.
+
+**Free resources.** Materials, skies, sounds, icons, key prompts and fonts usable in a game you sell, with a credits register kept up to date on its own. Optional: image to 3D (TripoSR, TRELLIS), Pixelorama and Laigter.
 
 ## New in 0.2.5
 
@@ -332,6 +341,7 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.2.6 :** un vrai style manga / BD (cel shading, contour encré, polices BD) ; des modèles 3D aux formes plus riches, comparés à des images de vrais jeux avant de t'être montrés ; un créateur de personnages 3D et l'import VRoid ; des ressources gratuites utilisables dans un jeu vendu, avec les crédits tenus tout seuls ; en option, l'image vers 3D, Pixelorama et Laigter.
 - **Nouveau dans la 0.2.5 :** du verre liquide sur tous les thèmes ; une Discussion façon messagerie, avec les petites idées de gameplay de tes agents ; à distance, les mêmes vues que sur le PC, la bibliothèque 3D, la boutique partagée et une mini-fenêtre économe.
 - **Nouveau dans la 0.2.3 :** les FBX, OBJ, STL et PLY s'ouvrent dans la bibliothèque et sur le téléphone, avec textures et animations ; menu Personnages pour donner une voix à chacun ; sur le téléphone, toute la bibliothèque, l'ajout de photos et de fichiers, et un onglet Voix (app Android 1.8).
 - **Nouveau dans la 0.2.1 :** pilote NOVARA depuis un portable, sur le Wi-Fi ou de partout avec Tailscale (« Seulement piloter un autre ordinateur » au premier lancement, code à 6 chiffres, projets, terminaux des agents, coordinateur et test du jeu depuis le portable ; plusieurs appareils, « Regarder seulement », alertes). Plus léger (presque rien quand la fenêtre est cachée, démarrage deux fois plus rapide) et plus sûr (une clé par agent, accord avant les scripts Blender). Depuis la 0.2.2, tu ne valides un objet qu'une fois : ses autres formats, ses versions de loin, ses textures et ses vues suivent ta réponse.
