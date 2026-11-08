@@ -108,6 +108,7 @@ The **Characters** menu lists your game's characters, as the agents register the
 - **Free resources** (in the Studio): materials, skies, sounds, icons, keyboard and gamepad key prompts, fonts, free and usable in a game you sell (Poly Haven, ambientCG, Kenney, Quaternius, KayKit…). Every file is written in the game's credits (`CREDITS.md`), with the text to copy into your end credits.
 - **Image to 3D** (optional, Settings › Installation): from a picture, the agents get a draft 3D model that they then rework in Blender. TripoSR runs on Apple-chip Macs (about two and a half minutes on an 8 GB M1 Mac) and on PCs; TRELLIS needs an NVIDIA card with 16 GB of video memory.
 - **Pixelorama and Laigter** (optional, Settings › Installation): pixel art, animations and tiles, and 2D sprite relief for lighting.
+- **Meshy 3D** (optional, paid, Settings › Connected services): your agents make pictures, 3D models, textures, skeletons and animations with your Meshy account. The price and the picture show before every spend.
 
 ## 12. NOVARA on your phone and from afar
 

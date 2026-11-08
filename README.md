@@ -9,7 +9,7 @@ Free forever · no subscription · no account · macOS · Windows</p>
 
 <p align="center">
   <a href="https://github.com/elinahart/novara-releases/releases/latest"><b>⬇ Download for macOS</b></a> ·
-  <a href="https://github.com/elinahart/novara-releases/releases/latest"><b>⬇ Download for Windows</b></a> ·
+  <a href="https://github.com/elinahart/novara-releases/releases/tag/v0.2.6"><b>⬇ Download for Windows</b></a> ·
   <a href="https://elinahart.github.io/novara-releases/"><b>🌐 Website</b></a> ·
   <a href="GUIDE.md"><b>📖 Guide</b></a> ·
   <a href="FAQ.md"><b>❓ FAQ</b></a> ·
@@ -30,6 +30,7 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 
 ## Contents
 
+[New in 0.2.7](#new-in-027) ·
 [New in 0.2.6](#new-in-026) ·
 [New in 0.2.5](#new-in-025) ·
 [New in 0.2.3](#new-in-023) ·
@@ -51,6 +52,14 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 [Install](#install)
 
 ---
+
+## New in 0.2.7
+
+**Meshy 3D.** Connect your Meshy account and your agents make pictures, 3D models, textures, skeletons and animations with it. Every spend shows its price and the picture or model first, and nothing starts without your yes. The triangle count follows your game and shows at each approval.
+
+**A clearer chat.** Every model shows its render in large, even after approval. On the phone, a light copy made only for the preview is marked as such: the game keeps the real model.
+
+*0.2.7 is for macOS first; Windows stays on 0.2.6 for a few days.*
 
 ## New in 0.2.6
 
@@ -325,7 +334,7 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 
 **On Windows**
 
-1. Download `NOVARA_<version>_windows_x64-setup.exe` from [Releases](https://github.com/elinahart/novara-releases/releases/latest).
+1. Download `NOVARA_<version>_windows_x64-setup.exe` from [Releases](https://github.com/elinahart/novara-releases/releases/tag/v0.2.6) (0.2.7 for Windows comes a little later).
 2. Open it and follow the installer.
 3. If Windows shows “Windows protected your PC” (the installer is not signed by Microsoft), click **More info**, then **Run anyway**.
 
@@ -341,6 +350,7 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.2.7 (Mac d'abord, Windows reste en 0.2.6 quelques jours) :** Meshy 3D branché à ton compte : images, modèles 3D, textures, squelettes et animations, avec le prix et l'image montrés avant chaque dépense ; le nombre de triangles suit ton jeu ; dans la Discussion, chaque modèle montre son rendu en grand.
 - **Nouveau dans la 0.2.6 :** un vrai style manga / BD (cel shading, contour encré, polices BD) ; des modèles 3D aux formes plus riches, comparés à des images de vrais jeux avant de t'être montrés ; un créateur de personnages 3D et l'import VRoid ; des ressources gratuites utilisables dans un jeu vendu, avec les crédits tenus tout seuls ; en option, l'image vers 3D, Pixelorama et Laigter.
 - **Nouveau dans la 0.2.5 :** du verre liquide sur tous les thèmes ; une Discussion façon messagerie, avec les petites idées de gameplay de tes agents ; à distance, les mêmes vues que sur le PC, la bibliothèque 3D, la boutique partagée et une mini-fenêtre économe.
 - **Nouveau dans la 0.2.3 :** les FBX, OBJ, STL et PLY s'ouvrent dans la bibliothèque et sur le téléphone, avec textures et animations ; menu Personnages pour donner une voix à chacun ; sur le téléphone, toute la bibliothèque, l'ajout de photos et de fichiers, et un onglet Voix (app Android 1.8).
@@ -357,7 +367,7 @@ valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 - Rien n'est collecté, aucune IA n'est entraînée sur tes fichiers par NOVARA.
 
 [**⬇ Télécharger pour macOS**](https://github.com/elinahart/novara-releases/releases/latest) ·
-[**⬇ Télécharger pour Windows**](https://github.com/elinahart/novara-releases/releases/latest) ·
+[**⬇ Télécharger pour Windows**](https://github.com/elinahart/novara-releases/releases/tag/v0.2.6) ·
 [**Site en français**](https://elinahart.github.io/novara-releases/fr.html) ·
 [**💜 Soutenir sur Ko-fi**](https://ko-fi.com/K4B229QS15)
 

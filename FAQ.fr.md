@@ -118,6 +118,10 @@ Choisis le style **Manga / BD** ou **Anime** pour ton projet. Les agents utilise
 
 TripoSR tourne sur les Mac à puce Apple et sur les PC (plus vite avec une carte NVIDIA). Il ne marche pas sur les Mac à processeur Intel. TRELLIS demande une carte NVIDIA avec 16 Go de mémoire vidéo. Dans tous les cas, c'est un brouillon que les agents retravaillent.
 
+### Comment brancher Meshy et combien ça coûte ?
+
+Meshy demande un abonnement payant (le forfait gratuit n'a pas d'accès pour les applications). Colle ta clé Meshy dans **Réglages › Services connectés** : elle est gardée dans le trousseau, jamais en clair. Avant chaque dépense, NOVARA te montre le prix en crédits et l'image ou le modèle concerné, et rien ne part sans ton oui. Pour un personnage, le créateur de NOVARA (gratuit) passe d'abord.
+
 ### Comment signaler un bug ?
 
 Utilise **Signaler un bug** dans NOVARA ou ouvre un ticket sur [GitHub](https://github.com/elinahart/novara-releases/issues).
