@@ -1,24 +1,24 @@
-# NOVARA guide
+# Kwestfall guide
 
-Everything you need to install NOVARA, make your first game and go further. You don't need to know how to code. Looking for something specific? See the [FAQ](FAQ.md).
+Everything you need to install Kwestfall, make your first game and go further. You don't need to know how to code. Looking for something specific? See the [FAQ](FAQ.md).
 
 ## 1. What you need
 
 - A Mac with macOS 11 or later (Apple Silicon or Intel), or a PC with Windows 10 or 11 (64-bit).
-- At least one AI account: a Claude subscription, a ChatGPT account or a Google account. NOVARA is free, but the agents use your own account.
+- At least one AI account: a Claude subscription, a ChatGPT account or a Google account. Kwestfall is free, but the agents use your own account.
 - Disk space for the tools you choose to install (Blender, the image generator…).
 
-## 2. Install NOVARA
+## 2. Install Kwestfall
 
 **On Mac**
 
-1. Download `NOVARA_<version>_macos.dmg` from the [releases page](https://github.com/elinahart/novara-releases/releases/latest).
-2. Open it and drag **NOVARA** into **Applications**.
+1. Download `Kwestfall_<version>_macos.dmg` from the [releases page](https://github.com/elinahart/novara-releases/releases/latest).
+2. Open it and drag **Kwestfall** into **Applications**.
 3. The first time, macOS says it cannot check the app, because it is not notarised by Apple. Open **System Settings › Privacy & Security**, scroll down and click **Open Anyway**. You only do this once.
 
 **On Windows**
 
-1. Download `NOVARA_<version>_windows_x64-setup.exe` from the [releases page](https://github.com/elinahart/novara-releases/releases/latest).
+1. Download `Kwestfall_<version>_windows_x64-setup.exe` from the [releases page](https://github.com/elinahart/novara-releases/releases/latest).
 2. Open it and follow the installer.
 3. If Windows shows “Windows protected your PC”, click **More info**, then **Run anyway**.
 
@@ -26,11 +26,11 @@ Everything you need to install NOVARA, make your first game and go further. You 
 
 ![Choosing your games during setup](docs/img/install-games.jpg)
 
-1. **Welcome**: choose to install NOVARA on this computer. The other choice, “Only control another computer”, is for a laptop that drives a more powerful computer (see part 12).
-2. **Your games**: tick the games you want to make. NOVARA picks the tools and shows you the list. You only have one button to click.
-3. **AI accounts**: connect Claude Code, Codex or Gemini. NOVARA installs them for you.
+1. **Welcome**: choose to install Kwestfall on this computer. The other choice, “Only control another computer”, is for a laptop that drives a more powerful computer (see part 12).
+2. **Your games**: tick the games you want to make. Kwestfall picks the tools and shows you the list. You only have one button to click.
+3. **AI accounts**: connect Claude Code, Codex or Gemini. Kwestfall installs them for you.
 4. **Your style**: choose your theme and your character.
-5. **Ready**: NOVARA really checks that everything works and tells you what is missing.
+5. **Ready**: Kwestfall really checks that everything works and tells you what is missing.
 
 ## 4. Make your first game
 
@@ -61,11 +61,11 @@ At the top right, **Test** starts your game, **Start a test run** (Unity and Rob
 ![The chat with the coordinator](docs/img/chat.jpg)
 
 - **The coordinator** can be the only one you talk to. Write your objective: it shares out the work and tells you how it goes. It carries your character's name and says “I”.
-- **Ideas**: above the message box, NOVARA and the agents suggest small ideas, like “Make the monsters stronger”. Click one to put it in your message, or the cross to remove it.
+- **Ideas**: above the message box, Kwestfall and the agents suggest small ideas, like “Make the monsters stronger”. Click one to put it in your message, or the cross to remove it.
 - **The views**: **Agent windows** shows their terminals, **Town** shows each agent in their house, **Chat** shows the conversation.
 - **Pictures**: paste a picture in the message box with Cmd+V (Ctrl+V on Windows).
 - **Your voice**: you can dictate your messages. Recognition runs on your computer.
-- **How many agents**: up to 6, depending on what your computer can handle. NOVARA suggests a team in “Resources and agents”.
+- **How many agents**: up to 6, depending on what your computer can handle. Kwestfall suggests a team in “Resources and agents”.
 
 Agents talk to each other in English, because it costs fewer tokens. Everything meant for you stays in your language.
 
@@ -73,7 +73,7 @@ Agents talk to each other in English, because it costs fewer tokens. Everything 
 
 ![Approving a sprite sheet](docs/img/approve-basket.jpg)
 
-When an agent makes a sprite, a 3D model, an interface or a sound, NOVARA checks it and then shows it to you. You answer **Approve**, **Refuse** or **Ask for a fix**, with a comment if you like.
+When an agent makes a sprite, a 3D model, an interface or a sound, Kwestfall checks it and then shows it to you. You answer **Approve**, **Refuse** or **Ask for a fix**, with a comment if you like.
 
 - One approval per object: its other formats, textures and views follow your answer.
 - A 3D model's animation plays in the window, one by one, never as a mere picture.
@@ -81,7 +81,7 @@ When an agent makes a sprite, a 3D model, an interface or a sound, NOVARA checks
 
 ## 8. Testing your game
 
-Click **Test**. NOVARA starts the game and reads its errors so the agents can fix them. Web games can also be played on your phone. For Unity, NOVARA opens the game in the editor.
+Click **Test**. Kwestfall starts the game and reads its errors so the agents can fix them. Web games can also be played on your phone. For Unity, Kwestfall opens the game in the editor.
 
 ## 9. The library and 3D previews
 
@@ -93,16 +93,16 @@ Click a model to turn it around. **GLB, GLTF, FBX and OBJ** files open with thei
 
 ## 10. Characters and voices
 
-The **Characters** menu lists your game's characters, as the agents register them. For each one, choose a voice already in NOVARA. The coordinator is told right away that this character has this voice.
+The **Characters** menu lists your game's characters, as the agents register them. For each one, choose a voice already in Kwestfall. The coordinator is told right away that this character has this voice.
 
 - Add a voice in **Workshop › Voice**, or from the phone's **Voices** tab.
-- A voice is always a copy of a real voice: the person must have agreed, and NOVARA asks for it.
+- A voice is always a copy of a real voice: the person must have agreed, and Kwestfall asks for it.
 
-**Create a character.** In the **Characters** menu, **Create a character** makes a 3D character with Blender: shape the body with the sliders (they stay within human proportions), pick a style (realistic, comic hero, manga, cartoon, chibi), face features, an outfit or clothes fitted to the body. It comes with a skeleton ready for Mixamo animations. You can also import a character made in **VRoid Studio** (`.vrm`): NOVARA keeps it as it is.
+**Create a character.** In the **Characters** menu, **Create a character** makes a 3D character with Blender: shape the body with the sliders (they stay within human proportions), pick a style (realistic, comic hero, manga, cartoon, chibi), face features, an outfit or clothes fitted to the body. It comes with a skeleton ready for Mixamo animations. You can also import a character made in **VRoid Studio** (`.vrm`): Kwestfall keeps it as it is.
 
 ## 11. Studio, Workshop and Animations
 
-- **Studio**: ask for an asset in plain words. NOVARA shows its plan before it starts.
+- **Studio**: ask for an asset in plain words. Kwestfall shows its plan before it starts.
 - **Workshop**: sounds, music, ambiences, voices and effects, made on your computer.
 - **Animations**: watch your 3D characters' animations, pin a remark at the right moment and send it to the agent. This menu is there for 3D games.
 - **Free resources** (in the Studio): materials, skies, sounds, icons, keyboard and gamepad key prompts, fonts, free and usable in a game you sell (Poly Haven, ambientCG, Kenney, Quaternius, KayKit…). Every file is written in the game's credits (`CREDITS.md`), with the text to copy into your end credits.
@@ -110,15 +110,15 @@ The **Characters** menu lists your game's characters, as the agents register the
 - **Pixelorama and Laigter** (optional, Settings › Installation): pixel art, animations and tiles, and 2D sprite relief for lighting.
 - **Meshy 3D** (optional, paid, Settings › Connected services): your agents make pictures, 3D models, textures, skeletons and animations with your Meshy account. The price and the picture show before every spend.
 
-## 12. NOVARA on your phone and from afar
+## 12. Kwestfall on your phone and from afar
 
-![NOVARA on the phone](docs/img/phone-town-dark.jpg)
+![Kwestfall on the phone](docs/img/phone-town-dark.jpg)
 
 **Link your phone**
 
-1. Click **My phone** at the top of NOVARA.
+1. Click **My phone** at the top of Kwestfall.
 2. Scan the QR code, with your phone on the same Wi-Fi as the computer.
-3. On Android, install the NOVARA app offered by the page: it tells you when an agent needs you. On iPhone, the browser is enough.
+3. On Android, install the Kwestfall app offered by the page: it tells you when an agent needs you. On iPhone, the browser is enough.
 
 You get the **Town**, **Chat**, **Tasks**, **Approve**, **Library** and **Voices** tabs.
 
@@ -126,7 +126,7 @@ You get the **Town**, **Chat**, **Tasks**, **Approve**, **Library** and **Voices
 - **Chat**: write to the coordinator and send it a photo.
 - **Voices**: give a character a voice or record someone, with their consent.
 
-**Away from home**: install Tailscale on the computer and the phone. NOVARA then shows a second QR code.
+**Away from home**: install Tailscale on the computer and the phone. Kwestfall then shows a second QR code.
 
 **From a laptop**: on the laptop, choose “Only control another computer” on first launch. Link it with the 6-digit code of the big computer, in **Remote**. Nothing goes through the Internet, you can remove a device at any time, and “Watch only” stops it from changing anything.
 
@@ -139,13 +139,13 @@ You get the **Town**, **Chat**, **Tasks**, **Approve**, **Library** and **Voices
 
 ## 14. Coming back later
 
-When you reopen a project, NOVARA shows where you were: what is done, what is left and the interrupted agents. **Restart all** or **Restart** goes on with the same team. **Later** just closes the window, without starting any agent.
+When you reopen a project, Kwestfall shows where you were: what is done, what is left and the interrupted agents. **Restart all** or **Restart** goes on with the same team. **Later** just closes the window, without starting any agent.
 
 ## 15. Releasing your game
 
-The **Release** menu opens the **Release kit**: an AI of your choice plays the game, takes real screenshots and writes the store page in French or English. You correct the texts, and NOVARA prepares the pictures at Steam's official sizes.
+The **Release** menu opens the **Release kit**: an AI of your choice plays the game, takes real screenshots and writes the store page in French or English. You correct the texts, and Kwestfall prepares the pictures at Steam's official sizes.
 
-## 16. The game side of NOVARA
+## 16. The game side of Kwestfall
 
 - **Themes**: they change the whole app, and you can make one with an AI. Three themes are secret.
 - **Mini-games**: click things in your town. One point gives one coin.
@@ -154,4 +154,4 @@ The **Release** menu opens the **Release kit**: an AI of your choice plays the g
 
 ## 17. Need help?
 
-See the [FAQ](FAQ.md). If you find a bug, use **Report a bug** in NOVARA or open an issue on [GitHub](https://github.com/elinahart/novara-releases/issues).
+See the [FAQ](FAQ.md). If you find a bug, use **Report a bug** in Kwestfall or open an issue on [GitHub](https://github.com/elinahart/novara-releases/issues).

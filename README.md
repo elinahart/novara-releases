@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/img/novara-icon.png" alt="NOVARA" width="112">
+  <img src="docs/img/novara-icon.png" alt="Kwestfall" width="112">
 </p>
 
-<h1 align="center">NOVARA</h1>
+<h1 align="center">Kwestfall</h1>
 
 <p align="center"><b>Make video games with a team of AI agents — on your own computer.</b><br>
 Free forever · no subscription · no account · macOS · Windows</p>
@@ -17,9 +17,9 @@ Free forever · no subscription · no account · macOS · Windows</p>
   <a href="https://ko-fi.com/K4B229QS15"><b>💜 Support on Ko-fi</b></a>
 </p>
 
-<p align="center"><img src="docs/img/hero-town.jpg" alt="Five AI agents and their roles, working on a game in NOVARA's little town" width="900"></p>
+<p align="center"><img src="docs/img/hero-town.jpg" alt="Five AI agents and their roles, working on a game in Kwestfall's little town" width="900"></p>
 
-NOVARA turns AI coding agents — **Claude Code**, **Codex** and **Gemini (Antigravity)** — into a game studio.
+Kwestfall turns AI coding agents — **Claude Code**, **Codex** and **Gemini (Antigravity)** — into a game studio.
 You describe your game in one sentence; a coordinator splits it into tasks and recruits agents for
 the code, the graphics, the sound and the tests; you approve every sprite, model and sound before it
 goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox Studio** and **Unity**.
@@ -30,6 +30,7 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 
 ## Contents
 
+[New in 0.2.8](#new-in-028) ·
 [New in 0.2.7](#new-in-027) ·
 [New in 0.2.6](#new-in-026) ·
 [New in 0.2.5](#new-in-025) ·
@@ -43,7 +44,7 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 [You approve everything](#you-approve-everything) ·
 [Assets made on your computer](#assets-made-on-your-computer) ·
 [Your AI accounts](#your-ai-accounts) ·
-[NOVARA on your phone](#novara-on-your-phone) ·
+[Kwestfall on your phone](#novara-on-your-phone) ·
 [A studio that feels like a game](#a-studio-that-feels-like-a-game) ·
 [Themes made by AI](#themes-made-by-ai) ·
 [Creations & plugins](#creations--plugins) ·
@@ -52,6 +53,14 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 [Install](#install)
 
 ---
+
+## New in 0.2.8
+
+**Kwestfall.** NOVARA gets its own name and a new logo, the sword K. Your projects, agents and settings stay the same.
+
+**Fixes and more.** A Permissions panel at launch; the phone in your theme's colours with the project settings and the microphone; visual effects visible on every device; a Kwestfall sound player; Blender crashes no longer block the queue.
+
+*0.2.8 is for macOS first; Windows stays on 0.2.6 for a few days.*
 
 ## New in 0.2.7
 
@@ -87,13 +96,13 @@ someone with their consent (install the Android app 1.8).
 
 ## New in 0.2.1
 
-**Remote control.** A laptop (or a second computer) drives the NOVARA of a more powerful computer, over Wi-Fi
+**Remote control.** A laptop (or a second computer) drives the Kwestfall of a more powerful computer, over Wi-Fi
 or from anywhere with Tailscale. On first launch choose “Only control another computer” (nothing heavy gets
 installed), link it with a 6-digit code, open the projects over there, read and write in the agents' terminals,
 talk to the coordinator and test the game in your browser. Several devices, “Watch only”, “Remove”, an alert at
 each connection; nothing goes through the Internet.
 
-**Lighter, safer.** NOVARA uses almost nothing while its window is hidden and starts twice as fast (the 3D
+**Lighter, safer.** Kwestfall uses almost nothing while its window is hidden and starts twice as fast (the 3D
 engine loads only when needed). A secret key per agent, your OK before Blender scripts, sealed phone files.
 Since 0.2.2 you approve an object only once: its other formats, distant versions, textures and views follow your answer.
 
@@ -101,9 +110,9 @@ Since 0.2.2 you approve an object only once: its other formats, distant versions
 
 ## New in 0.2.0
 
-**A 5-step setup.** On first launch you tick the games you want to make and NOVARA picks the tools: one list
+**A 5-step setup.** On first launch you tick the games you want to make and Kwestfall picks the tools: one list
 in plain words, the total download and a single Install button. You connect Claude, ChatGPT (Codex) or Gemini
-without leaving the setup, choose French or English from the first screen, and NOVARA tells you honestly at
+without leaving the setup, choose French or English from the first screen, and Kwestfall tells you honestly at
 the end if anything is missing.
 
 **ASCII Game.** A new kind of project: games made only of characters, in flat or isometric 2D, with grass,
@@ -122,27 +131,27 @@ runs; the themes are redesigned and the whole interface is in English.
 
 ## New in 0.1.7
 
-**Blender boosted.** NOVARA installs Blender with 17 free extensions and the MakeHuman character packs (CC0).
+**Blender boosted.** Kwestfall installs Blender with 17 free extensions and the MakeHuman character packs (CC0).
 Agents create in one line dressed human characters (skeleton and face sliders included), trees of 9 species,
 rocks, terrains, ivy, doors, windows, stairs, and 2D or isometric sprites rendered from 3D: fewer tokens,
 better models. Mixamo animations are filed into the project by themselves.
 
 **A team that talks, a lighter app.** The coordinator tells you every step in the chat; agents can show you a
 prototype to get your opinion. Gemini works without asking permission for every file. Test reports are 30 times
-shorter for the agents, and NOVARA uses almost no CPU when you are not looking at it.
+shorter for the agents, and Kwestfall uses almost no CPU when you are not looking at it.
 Since 0.1.9 you can send a photo from your phone to the coordinator (a sketch, an idea, a bug).
 
 <p align="center"><img src="docs/img/blender-village-iso.jpg" alt="Isometric village made in Blender by a Gemini team" width="760"></p>
 
 ## New in 0.1.5
 
-**Ultra saving mode.** One click and NOVARA shrinks to a small window: the town, animations and blur stop
+**Ultra saving mode.** One click and Kwestfall shrinks to a small window: the town, animations and blur stop
 while your agents keep working (about **75 % less CPU** on our Mac). Approve, answer and talk to the
 coordinator from there — or from your phone, where you also choose where approvals arrive.
 
 **Chat.** A Chat view with one conversation per agent; the coordinator speaks plainly, the waiting
 approval stays pinned with a live preview, and your decisions stay in the thread to reopen, change or
-send back for a fix. Reports are written by NOVARA from the tasks: no extra tokens. Also on the phone.
+send back for a fix. Reports are written by Kwestfall from the tasks: no extra tokens. Also on the phone.
 
 **Animation studio.** Watch your 3D characters' animations, scrub the timeline, pin a remark at the
 exact moment and send a change request to the agent who made it.
@@ -169,7 +178,7 @@ Thirty minutes later, **Star Catcher** was playable — on the computer and on t
 </p>
 
 - Pick an engine and an art style (pixel art, cartoon, low poly, realistic, neon, watercolour, voxel…), or let the AI decide everything.
-- ▶ **Test** starts your game in one click; NOVARA reads the engine's output and errors.
+- ▶ **Test** starts your game in one click; Kwestfall reads the engine's output and errors.
 - **Resume anywhere:** tasks, decisions and interrupted work are remembered; restart the previous team in one click.
 
 ## A real team of agents
@@ -206,16 +215,16 @@ The team plans, builds, tests and fixes on its own, and comes back to you only w
 
 <img src="docs/img/approve-basket.jpg" alt="Approving Pip the gardener's sprite sheet" width="900">
 
-When an agent makes a **sprite, a 3D model, an interface (HUD, menus) or a sound**, NOVARA checks it
+When an agent makes a **sprite, a 3D model, an interface (HUD, menus) or a sound**, Kwestfall checks it
 technically — size, transparency, floating parts, overlapping faces, stretched textures, silent or
 saturated audio — then shows it to you: **approve, refuse or ask for changes**. Agents can also
 **suggest ideas** or **ask you to choose** between options.
 
 ## Assets made on your computer
 
-<img src="docs/img/software.jpg" alt="Software installed by NOVARA" width="900">
+<img src="docs/img/software.jpg" alt="Software installed by Kwestfall" width="900">
 
-NOVARA installs and drives free creative tools for your agents — **Blender, Inkscape, Krita, GIMP,
+Kwestfall installs and drives free creative tools for your agents — **Blender, Inkscape, Krita, GIMP,
 LibreSprite, a local image generator (ComfyUI)** — and its **own sound synthesiser**. Every download is
 checked against its publisher's fingerprint.
 
@@ -232,7 +241,7 @@ checked against its publisher's fingerprint.
 
 ## Sounds made by the agents
 
-No sample library, no audio AI: NOVARA has its own synthesiser. Sound effects in several variants,
+No sample library, no audio AI: Kwestfall has its own synthesiser. Sound effects in several variants,
 music composed as a MIDI score and rendered in layers, ambiences — all made on your computer and
 royalty-free. **[Listen to them on the website →](https://elinahart.github.io/novara-releases/#sounds)**
 
@@ -240,13 +249,13 @@ royalty-free. **[Listen to them on the website →](https://elinahart.github.io/
 
 <img src="docs/img/ai-accounts.jpg" alt="AI accounts" width="600">
 
-Sign in to **Claude Code, Codex (ChatGPT) or Gemini (Antigravity)** from the app; NOVARA installs them for you.
-Pick a main AI and, if you like, other AIs to help it: NOVARA gives each one what it does best, and
+Sign in to **Claude Code, Codex (ChatGPT) or Gemini (Antigravity)** from the app; Kwestfall installs them for you.
+Pick a main AI and, if you like, other AIs to help it: Kwestfall gives each one what it does best, and
 offers to switch AI when one runs out of tokens. Connect online services when you need them: **Supabase, Cloudflare, Netlify,
 Roblox Open Cloud**. Dictate to your agents with **local voice recognition**: your voice never leaves
 your computer.
 
-## NOVARA on your phone
+## Kwestfall on your phone
 
 <p align="center">
   <img src="docs/img/phone-town-dark.jpg" alt="Town on the phone, Dark Aero" width="230">
@@ -256,7 +265,7 @@ your computer.
 
 Scan a QR code and your phone becomes a remote for your studio, over your own Wi-Fi: watch the town,
 chat with the coordinator, follow agents and tasks, **approve assets, answer questions, play your game**, and play the mini-games
-and shop with your computer's coins. The NOVARA **Android app**
+and shop with your computer's coins. The Kwestfall **Android app**
 sends a notification when an agent needs you; any phone browser works, iPhone included.
 
 ## A studio that feels like a game
@@ -291,7 +300,7 @@ Eight themes change the whole app — colours, icons, cursor, sounds and animate
 
 Describe any universe — a game, a film, a dream — add pictures if you like, and **the AI of your
 choice** builds a custom theme: colours, icons, buildings that fit, characters that walk around your
-town. NOVARA draws the town and wallpapers on your computer. Tune sprite speed and size live,
+town. Kwestfall draws the town and wallpapers on your computer. Tune sprite speed and size live,
 **export** your theme and **share** it.
 
 ## Creations & plugins
@@ -302,39 +311,39 @@ town. NOVARA draws the town and wallpapers on your computer. Tune sprite speed a
 </p>
 
 - The **Creations shop** lists themes, game templates and guides made by the community, with a picture of each; one click installs them. Everything is checked before it is listed and again before it is installed.
-- **Share** a theme straight from NOVARA: GitHub opens with your file ready.
+- **Share** a theme straight from Kwestfall: GitHub opens with your file ready.
 - **Plugins** add themes, game templates and guides for the agents. They only contain files — never a program. [How to make a plugin →](https://github.com/elinahart/novara-creations/blob/main/docs/plugins.md)
 
 ## Built to save your tokens
 
-Agents use your own subscription or tokens, so NOVARA spends them only where an AI really helps:
+Agents use your own subscription or tokens, so Kwestfall spends them only where an AI really helps:
 
 - **The right model:** heavy thinking goes to the best model, quick tasks to a small one — Eco, Balanced or Performance per project.
 - **0 tokens** for images, sounds and music made by local tools.
-- **Free checks:** sizes, transparency, silent sounds, broken 3D models are checked by NOVARA itself.
+- **Free checks:** sizes, transparency, silent sounds, broken 3D models are checked by Kwestfall itself.
 - **No re-reading:** a short project summary and a resume file instead of re-reading the whole project.
 
 ## Free forever, private
 
 - **Free, completely:** every feature, every theme, every update. No subscription, no account, no “pro” version.
-- **Nothing collected:** no analytics, no tracking, nothing is trained on your files. Your projects stay on your computer; NOVARA only goes online to download tools and updates, list the community's creations, or upload assets to your own Roblox account when you ask.
+- **Nothing collected:** no analytics, no tracking, nothing is trained on your files. Your projects stay on your computer; Kwestfall only goes online to download tools and updates, list the community's creations, or upload assets to your own Roblox account when you ask.
 - The AI agents you connect work with **your own account**: what they read is handled by their provider under its own terms (check your Claude, ChatGPT or Google settings about training).
 - **Signed updates**, offered on the start screen with what they change; the signature is checked before anything is installed.
 - **English and French**, following your computer's language.
 
-If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229QS15)** 💜 — it keeps NOVARA free and pays for new engines and more themes.
+If Kwestfall helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229QS15)** 💜 — it keeps Kwestfall free and pays for new engines and more themes.
 
 ## Install
 
 **On Mac**
 
-1. Download `NOVARA_<version>_macos.dmg` from [Releases](https://github.com/elinahart/novara-releases/releases/latest).
-2. Open it and drag **NOVARA** into **Applications**.
-3. The first time, macOS says it cannot check the app (NOVARA is not notarised by Apple): open **System Settings › Privacy & Security**, scroll down and click **Open Anyway**. Only once.
+1. Download `Kwestfall_<version>_macos.dmg` from [Releases](https://github.com/elinahart/novara-releases/releases/latest).
+2. Open it and drag **Kwestfall** into **Applications**.
+3. The first time, macOS says it cannot check the app (Kwestfall is not notarised by Apple): open **System Settings › Privacy & Security**, scroll down and click **Open Anyway**. Only once.
 
 **On Windows**
 
-1. Download `NOVARA_<version>_windows_x64-setup.exe` from [Releases](https://github.com/elinahart/novara-releases/releases/tag/v0.2.6) (0.2.7 for Windows comes a little later).
+1. Download `Kwestfall_<version>_windows_x64-setup.exe` from [Releases](https://github.com/elinahart/novara-releases/releases/tag/v0.2.6) (0.2.7 for Windows comes a little later).
 2. Open it and follow the installer.
 3. If Windows shows “Windows protected your PC” (the installer is not signed by Microsoft), click **More info**, then **Run anyway**.
 
@@ -345,35 +354,36 @@ If NOVARA helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B229
 
 ## En français
 
-**NOVARA** est une app gratuite — sans abonnement, sans compte — qui transforme les agents IA
+**Kwestfall** est une app gratuite — sans abonnement, sans compte — qui transforme les agents IA
 (Claude Code, Codex, Gemini via Antigravity) en studio de jeu : tu décris ton jeu en une phrase, un coordinateur le
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.2.8 (Mac d'abord) :** NOVARA devient Kwestfall, avec un nouveau logo ; panneau Autorisations au démarrage ; le téléphone aux couleurs de ton thème, avec les réglages du projet et le micro ; les effets visibles partout ; un lecteur de son Kwestfall ; Blender ne bloque plus la file quand il plante.
 - **Nouveau dans la 0.2.7 (Mac d'abord, Windows reste en 0.2.6 quelques jours) :** Meshy 3D branché à ton compte : images, modèles 3D, textures, squelettes et animations, avec le prix et l'image montrés avant chaque dépense ; le nombre de triangles suit ton jeu ; dans la Discussion, chaque modèle montre son rendu en grand.
 - **Nouveau dans la 0.2.6 :** un vrai style manga / BD (cel shading, contour encré, polices BD) ; des modèles 3D aux formes plus riches, comparés à des images de vrais jeux avant de t'être montrés ; un créateur de personnages 3D et l'import VRoid ; des ressources gratuites utilisables dans un jeu vendu, avec les crédits tenus tout seuls ; en option, l'image vers 3D, Pixelorama et Laigter.
 - **Nouveau dans la 0.2.5 :** du verre liquide sur tous les thèmes ; une Discussion façon messagerie, avec les petites idées de gameplay de tes agents ; à distance, les mêmes vues que sur le PC, la bibliothèque 3D, la boutique partagée et une mini-fenêtre économe.
 - **Nouveau dans la 0.2.3 :** les FBX, OBJ, STL et PLY s'ouvrent dans la bibliothèque et sur le téléphone, avec textures et animations ; menu Personnages pour donner une voix à chacun ; sur le téléphone, toute la bibliothèque, l'ajout de photos et de fichiers, et un onglet Voix (app Android 1.8).
-- **Nouveau dans la 0.2.1 :** pilote NOVARA depuis un portable, sur le Wi-Fi ou de partout avec Tailscale (« Seulement piloter un autre ordinateur » au premier lancement, code à 6 chiffres, projets, terminaux des agents, coordinateur et test du jeu depuis le portable ; plusieurs appareils, « Regarder seulement », alertes). Plus léger (presque rien quand la fenêtre est cachée, démarrage deux fois plus rapide) et plus sûr (une clé par agent, accord avant les scripts Blender). Depuis la 0.2.2, tu ne valides un objet qu'une fois : ses autres formats, ses versions de loin, ses textures et ses vues suivent ta réponse.
-- **Nouveau dans la 0.2.0 :** une installation en 5 étapes (tu coches tes jeux, NOVARA choisit les outils, un seul bouton Installer, tes comptes IA connectés tout de suite), un nouveau type de jeu ASCII Game tout en caractères, une IA locale gratuite qui économise des jetons, des agents qui se parlent en anglais entre eux et te répondent en français, le téléphone hors de chez toi avec Tailscale, 48 vrais instruments, des thèmes redessinés et l'interface en anglais.
+- **Nouveau dans la 0.2.1 :** pilote Kwestfall depuis un portable, sur le Wi-Fi ou de partout avec Tailscale (« Seulement piloter un autre ordinateur » au premier lancement, code à 6 chiffres, projets, terminaux des agents, coordinateur et test du jeu depuis le portable ; plusieurs appareils, « Regarder seulement », alertes). Plus léger (presque rien quand la fenêtre est cachée, démarrage deux fois plus rapide) et plus sûr (une clé par agent, accord avant les scripts Blender). Depuis la 0.2.2, tu ne valides un objet qu'une fois : ses autres formats, ses versions de loin, ses textures et ses vues suivent ta réponse.
+- **Nouveau dans la 0.2.0 :** une installation en 5 étapes (tu coches tes jeux, Kwestfall choisit les outils, un seul bouton Installer, tes comptes IA connectés tout de suite), un nouveau type de jeu ASCII Game tout en caractères, une IA locale gratuite qui économise des jetons, des agents qui se parlent en anglais entre eux et te répondent en français, le téléphone hors de chez toi avec Tailscale, 48 vrais instruments, des thèmes redessinés et l'interface en anglais.
 - **Nouveau dans la 0.1.7 :** Blender arrive avec 17 extensions et des packs de personnages libres : tes agents créent en une ligne personnages, arbres, rochers, terrains, maisons et sprites 2D isométriques, pour bien moins de tokens. Le coordinateur te parle à chaque étape, et Gemini travaille sans questions. Depuis la 0.1.9, tu peux envoyer une photo au coordinateur depuis ton téléphone.
 - **Nouveau dans la 0.1.5 :** le mode ultra économie (petite fenêtre, environ 75 % de processeur en moins, pilotable depuis le téléphone), le chat avec ton équipe (sur ordinateur et téléphone, sans tokens en plus) et le studio d'animation 3D.
 - Une équipe d'agents autonome qui se répartit le travail, réserve ses fichiers et se vérifie mutuellement ; elle te demande de choisir et te propose des idées quand ton avis compte.
-- Des sons créés sur ton ordinateur par le synthé de NOVARA ([à écouter sur le site](https://elinahart.github.io/novara-releases/fr.html#sounds)).
+- Des sons créés sur ton ordinateur par le synthé de Kwestfall ([à écouter sur le site](https://elinahart.github.io/novara-releases/fr.html#sounds)).
 - Des assets faits sur ton ordinateur (Blender, Inkscape, Krita, GIMP, générateur d'images local, synthé de sons).
 - Une ville vivante, 8 thèmes (+3 secrets), mini-jeux, pièces, boutique, personnages, chapeaux et familiers.
 - Des thèmes créés par l'IA, une boutique de créations de la communauté, des plugins.
-- NOVARA sur ton téléphone, en Wi-Fi local, avec l'app Android.
-- Rien n'est collecté, aucune IA n'est entraînée sur tes fichiers par NOVARA.
+- Kwestfall sur ton téléphone, en Wi-Fi local, avec l'app Android.
+- Rien n'est collecté, aucune IA n'est entraînée sur tes fichiers par Kwestfall.
 
 [**⬇ Télécharger pour macOS**](https://github.com/elinahart/novara-releases/releases/latest) ·
 [**⬇ Télécharger pour Windows**](https://github.com/elinahart/novara-releases/releases/tag/v0.2.6) ·
 [**Site en français**](https://elinahart.github.io/novara-releases/fr.html) ·
 [**💜 Soutenir sur Ko-fi**](https://ko-fi.com/K4B229QS15)
 
-**Installer sur Mac :** télécharge le `.dmg`, glisse NOVARA dans Applications. La première fois, macOS dit qu'il
+**Installer sur Mac :** télécharge le `.dmg`, glisse Kwestfall dans Applications. La première fois, macOS dit qu'il
 ne peut pas vérifier l'app : ouvre **Réglages Système › Confidentialité et sécurité**, puis **Ouvrir
 quand même**.
 
-**Installer sur Windows :** télécharge `NOVARA_<version>_windows_x64-setup.exe` et lance-le. Si Windows affiche
+**Installer sur Windows :** télécharge `Kwestfall_<version>_windows_x64-setup.exe` et lance-le. Si Windows affiche
 « Windows a protégé votre ordinateur », clique sur **Informations complémentaires**, puis **Exécuter quand même**.
