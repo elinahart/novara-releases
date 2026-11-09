@@ -60,7 +60,9 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 
 **Fixes and more.** A Permissions panel at launch; the phone in your theme's colours with the project settings and the microphone; visual effects visible on every device; a Kwestfall sound player; Blender crashes no longer block the queue.
 
-*0.2.8 is for macOS first; Windows stays on 0.2.6 for a few days.*
+**0.2.9:** a sharper logo, in the colours of some themes (Aurora, Metro, Technozen, Glacier, Retro).
+
+*0.2.8 and 0.2.9 are for macOS first; Windows stays on 0.2.6 for a few days.*
 
 ## New in 0.2.7
 
@@ -359,6 +361,7 @@ If Kwestfall helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.2.9 (Mac d'abord) :** un logo plus net, aux couleurs de certains thèmes (Aurore, Metro, Technozen, Glacier, Rétro).
 - **Nouveau dans la 0.2.8 (Mac d'abord) :** NOVARA devient Kwestfall, avec un nouveau logo ; panneau Autorisations au démarrage ; le téléphone aux couleurs de ton thème, avec les réglages du projet et le micro ; les effets visibles partout ; un lecteur de son Kwestfall ; Blender ne bloque plus la file quand il plante.
 - **Nouveau dans la 0.2.7 (Mac d'abord, Windows reste en 0.2.6 quelques jours) :** Meshy 3D branché à ton compte : images, modèles 3D, textures, squelettes et animations, avec le prix et l'image montrés avant chaque dépense ; le nombre de triangles suit ton jeu ; dans la Discussion, chaque modèle montre son rendu en grand.
 - **Nouveau dans la 0.2.6 :** un vrai style manga / BD (cel shading, contour encré, polices BD) ; des modèles 3D aux formes plus riches, comparés à des images de vrais jeux avant de t'être montrés ; un créateur de personnages 3D et l'import VRoid ; des ressources gratuites utilisables dans un jeu vendu, avec les crédits tenus tout seuls ; en option, l'image vers 3D, Pixelorama et Laigter.
