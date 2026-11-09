@@ -9,7 +9,7 @@ Free forever · no subscription · no account · macOS · Windows</p>
 
 <p align="center">
   <a href="https://github.com/elinahart/novara-releases/releases/latest"><b>⬇ Download for macOS</b></a> ·
-  <a href="https://github.com/elinahart/novara-releases/releases/tag/v0.2.6"><b>⬇ Download for Windows</b></a> ·
+  <a href="https://github.com/elinahart/novara-releases/releases/latest"><b>⬇ Download for Windows</b></a> ·
   <a href="https://elinahart.github.io/novara-releases/"><b>🌐 Website</b></a> ·
   <a href="GUIDE.md"><b>📖 Guide</b></a> ·
   <a href="FAQ.md"><b>❓ FAQ</b></a> ·
@@ -62,7 +62,6 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 
 **0.2.9:** a sharper logo, in the colours of some themes (Aurora, Metro, Technozen, Glacier, Retro).
 
-*0.2.8 and 0.2.9 are for macOS first; Windows stays on 0.2.6 for a few days.*
 
 ## New in 0.2.7
 
@@ -345,7 +344,7 @@ If Kwestfall helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B
 
 **On Windows**
 
-1. Download `Kwestfall_<version>_windows_x64-setup.exe` from [Releases](https://github.com/elinahart/novara-releases/releases/tag/v0.2.6) (0.2.7 for Windows comes a little later).
+1. Download `Kwestfall_<version>_windows_x64-setup.exe` from [Releases](https://github.com/elinahart/novara-releases/releases/latest).
 2. Open it and follow the installer.
 3. If Windows shows “Windows protected your PC” (the installer is not signed by Microsoft), click **More info**, then **Run anyway**.
 
@@ -361,8 +360,8 @@ If Kwestfall helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
-- **Nouveau dans la 0.2.9 (Mac d'abord) :** un logo plus net, aux couleurs de certains thèmes (Aurore, Metro, Technozen, Glacier, Rétro).
-- **Nouveau dans la 0.2.8 (Mac d'abord) :** NOVARA devient Kwestfall, avec un nouveau logo ; panneau Autorisations au démarrage ; le téléphone aux couleurs de ton thème, avec les réglages du projet et le micro ; les effets visibles partout ; un lecteur de son Kwestfall ; Blender ne bloque plus la file quand il plante.
+- **Nouveau dans la 0.2.9 :** un logo plus net, aux couleurs de certains thèmes (Aurore, Metro, Technozen, Glacier, Rétro).
+- **Nouveau dans la 0.2.8 :** NOVARA devient Kwestfall, avec un nouveau logo ; panneau Autorisations au démarrage ; le téléphone aux couleurs de ton thème, avec les réglages du projet et le micro ; les effets visibles partout ; un lecteur de son Kwestfall ; Blender ne bloque plus la file quand il plante.
 - **Nouveau dans la 0.2.7 (Mac d'abord, Windows reste en 0.2.6 quelques jours) :** Meshy 3D branché à ton compte : images, modèles 3D, textures, squelettes et animations, avec le prix et l'image montrés avant chaque dépense ; le nombre de triangles suit ton jeu ; dans la Discussion, chaque modèle montre son rendu en grand.
 - **Nouveau dans la 0.2.6 :** un vrai style manga / BD (cel shading, contour encré, polices BD) ; des modèles 3D aux formes plus riches, comparés à des images de vrais jeux avant de t'être montrés ; un créateur de personnages 3D et l'import VRoid ; des ressources gratuites utilisables dans un jeu vendu, avec les crédits tenus tout seuls ; en option, l'image vers 3D, Pixelorama et Laigter.
 - **Nouveau dans la 0.2.5 :** du verre liquide sur tous les thèmes ; une Discussion façon messagerie, avec les petites idées de gameplay de tes agents ; à distance, les mêmes vues que sur le PC, la bibliothèque 3D, la boutique partagée et une mini-fenêtre économe.
@@ -380,7 +379,7 @@ valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 - Rien n'est collecté, aucune IA n'est entraînée sur tes fichiers par Kwestfall.
 
 [**⬇ Télécharger pour macOS**](https://github.com/elinahart/novara-releases/releases/latest) ·
-[**⬇ Télécharger pour Windows**](https://github.com/elinahart/novara-releases/releases/tag/v0.2.6) ·
+[**⬇ Télécharger pour Windows**](https://github.com/elinahart/novara-releases/releases/latest) ·
 [**Site en français**](https://elinahart.github.io/novara-releases/fr.html) ·
 [**💜 Soutenir sur Ko-fi**](https://ko-fi.com/K4B229QS15)
 
