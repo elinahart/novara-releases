@@ -9,7 +9,7 @@ Free forever · no subscription · no account · macOS · Windows</p>
 
 <p align="center">
   <a href="https://github.com/elinahart/novara-releases/releases/latest"><b>⬇ Download for macOS</b></a> ·
-  <a href="https://github.com/elinahart/novara-releases/releases/latest"><b>⬇ Download for Windows</b></a> ·
+  <a href="https://github.com/elinahart/novara-releases/releases/tag/v0.2.9"><b>⬇ Download for Windows</b></a> ·
   <a href="https://elinahart.github.io/novara-releases/"><b>🌐 Website</b></a> ·
   <a href="GUIDE.md"><b>📖 Guide</b></a> ·
   <a href="FAQ.md"><b>❓ FAQ</b></a> ·
@@ -61,6 +61,8 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 **Fixes and more.** A Permissions panel at launch; the phone in your theme's colours with the project settings and the microphone; visual effects visible on every device; a Kwestfall sound player; Blender crashes no longer block the queue.
 
 **0.2.9:** a sharper logo, in the colours of some themes (Aurora, Metro, Technozen, Glacier, Retro).
+
+**0.2.10:** Roblox keeps a single Roblox Studio per game: agents no longer close and reopen it. *macOS first; Windows stays on 0.2.9 for a few days.*
 
 
 ## New in 0.2.7
@@ -344,7 +346,7 @@ If Kwestfall helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B
 
 **On Windows**
 
-1. Download `Kwestfall_<version>_windows_x64-setup.exe` from [Releases](https://github.com/elinahart/novara-releases/releases/latest).
+1. Download `Kwestfall_<version>_windows_x64-setup.exe` from [Releases](https://github.com/elinahart/novara-releases/releases/tag/v0.2.9).
 2. Open it and follow the installer.
 3. If Windows shows “Windows protected your PC” (the installer is not signed by Microsoft), click **More info**, then **Run anyway**.
 
@@ -360,6 +362,7 @@ If Kwestfall helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.2.10 (Mac d'abord, Windows reste en 0.2.9 quelques jours) :** Roblox garde un seul Roblox Studio par jeu, les agents ne le ferment et ne le rouvrent plus.
 - **Nouveau dans la 0.2.9 :** un logo plus net, aux couleurs de certains thèmes (Aurore, Metro, Technozen, Glacier, Rétro).
 - **Nouveau dans la 0.2.8 :** NOVARA devient Kwestfall, avec un nouveau logo ; panneau Autorisations au démarrage ; le téléphone aux couleurs de ton thème, avec les réglages du projet et le micro ; les effets visibles partout ; un lecteur de son Kwestfall ; Blender ne bloque plus la file quand il plante.
 - **Nouveau dans la 0.2.7 (Mac d'abord, Windows reste en 0.2.6 quelques jours) :** Meshy 3D branché à ton compte : images, modèles 3D, textures, squelettes et animations, avec le prix et l'image montrés avant chaque dépense ; le nombre de triangles suit ton jeu ; dans la Discussion, chaque modèle montre son rendu en grand.
@@ -379,7 +382,7 @@ valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 - Rien n'est collecté, aucune IA n'est entraînée sur tes fichiers par Kwestfall.
 
 [**⬇ Télécharger pour macOS**](https://github.com/elinahart/novara-releases/releases/latest) ·
-[**⬇ Télécharger pour Windows**](https://github.com/elinahart/novara-releases/releases/latest) ·
+[**⬇ Télécharger pour Windows**](https://github.com/elinahart/novara-releases/releases/tag/v0.2.9) ·
 [**Site en français**](https://elinahart.github.io/novara-releases/fr.html) ·
 [**💜 Soutenir sur Ko-fi**](https://ko-fi.com/K4B229QS15)
 
