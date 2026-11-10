@@ -30,6 +30,7 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 
 ## Contents
 
+[New in 0.2.11](#new-in-0211) ·
 [New in 0.2.8](#new-in-028) ·
 [New in 0.2.7](#new-in-027) ·
 [New in 0.2.6](#new-in-026) ·
@@ -53,6 +54,21 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 [Install](#install)
 
 ---
+
+## New in 0.2.11
+
+**Five workshops.** Kwestfall no longer makes only games. At the top of the window, pick **Games**, **3D printing**, **Software**, **Android apps** or **Minecraft mods**: each has its own home, expert agents and checks, and only its own tools are installed. A new spending level, **Super performance**, uses the strongest model for code and creation.
+
+<p align="center"><img src="docs/img/modes/mode-jeux.jpg" alt="The five modes at the top of Kwestfall" width="720"></p>
+
+- **3D printing:** CAD drawn by the agents, printability checks (closed shape, walls, overhangs, clearance, bed size), weight, print time and filament read from your slicer, ready-made gears, bearings and threads, settings per filament (PLA, PETG, clear PETG, TPU).
+- **Android apps:** screens approved first, then a Kotlin app built into an APK and installed on your phone, with screenshots, size and permissions.
+- **Software:** web, desktop or command-line, built and tested by Kwestfall before you see it.
+- **Minecraft mods:** Fabric mods for Java Edition, a real 16×16 pixel-art texture workshop and jointed, animated creatures. Not an official Minecraft product; Kwestfall contains no Mojang images.
+
+<p align="center"><img src="docs/img/modes/validation-impression-3d.jpg" alt="Approving a 3D-printed box" width="360"> <img src="docs/img/modes/validation-android.jpg" alt="Approving an Android app" width="360"></p>
+
+*macOS first; Windows stays on 0.2.9 for a few days.*
 
 ## New in 0.2.8
 
@@ -362,6 +378,7 @@ If Kwestfall helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.2.11 (Mac d'abord, Windows reste en 0.2.9 quelques jours) :** cinq ateliers au lieu d'un : Jeux, Impression 3D, Logiciels, Applis Android et Mods Minecraft, chacun avec ses agents experts, ses vérifications et seulement ses outils à installer ; et le niveau de dépense Super performance.
 - **Nouveau dans la 0.2.10 (Mac d'abord, Windows reste en 0.2.9 quelques jours) :** Roblox garde un seul Roblox Studio par jeu, les agents ne le ferment et ne le rouvrent plus.
 - **Nouveau dans la 0.2.9 :** un logo plus net, aux couleurs de certains thèmes (Aurore, Metro, Technozen, Glacier, Rétro).
 - **Nouveau dans la 0.2.8 :** NOVARA devient Kwestfall, avec un nouveau logo ; panneau Autorisations au démarrage ; le téléphone aux couleurs de ton thème, avec les réglages du projet et le micro ; les effets visibles partout ; un lecteur de son Kwestfall ; Blender ne bloque plus la file quand il plante.
