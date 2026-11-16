@@ -30,6 +30,7 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 
 ## Contents
 
+[New in 0.2.12](#new-in-0212) ·
 [New in 0.2.11](#new-in-0211) ·
 [New in 0.2.8](#new-in-028) ·
 [New in 0.2.7](#new-in-027) ·
@@ -54,6 +55,17 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 [Install](#install)
 
 ---
+
+## New in 0.2.12
+
+**A team that no longer leaves you guessing.** A “To approve” list gathers everything waiting for your answer, on the computer, the phone and remotely; Kwestfall tells you plainly when the whole team is waiting for you, and writes a progress update itself when the coordinator has been silent.
+
+- **Phone:** start or resume the coordinator with no agent open, send up to six photos at once, dictate without leaving the page.
+- **Music:** the real instruments you installed play by default, and the approval window says what played.
+- **3D models:** the check refuses flipped faces and wrong shading before you see the model.
+- **Faster teams:** fewer needless waits, tests not replayed for nothing, and “done” means the whole request, tried in the game.
+
+*macOS first; Windows stays on 0.2.9 for a few days.*
 
 ## New in 0.2.11
 
@@ -378,6 +390,7 @@ If Kwestfall helps you, you can **[buy it a coin on Ko-fi](https://ko-fi.com/K4B
 découpe en tâches et recrute des agents pour le code, les graphismes, le son et les tests, et **tu
 valides chaque asset**. Jeux Web 2D, Web 3D, Roblox Studio et Unity.
 
+- **Nouveau dans la 0.2.12 (Mac d'abord, Windows reste en 0.2.9 quelques jours) :** une liste « À valider » partout et un message clair quand toute l'équipe t'attend ; depuis le téléphone, lancer le coordinateur sans agent ouvert, envoyer six photos d'un coup et dicter sans changer de page ; les vrais instruments de musique jouent par défaut ; un contrôle des modèles 3D plus strict ; des équipes plus rapides.
 - **Nouveau dans la 0.2.11 (Mac d'abord, Windows reste en 0.2.9 quelques jours) :** cinq ateliers au lieu d'un : Jeux, Impression 3D, Logiciels, Applis Android et Mods Minecraft, chacun avec ses agents experts, ses vérifications et seulement ses outils à installer ; et le niveau de dépense Super performance.
 - **Nouveau dans la 0.2.10 (Mac d'abord, Windows reste en 0.2.9 quelques jours) :** Roblox garde un seul Roblox Studio par jeu, les agents ne le ferment et ne le rouvrent plus.
 - **Nouveau dans la 0.2.9 :** un logo plus net, aux couleurs de certains thèmes (Aurore, Metro, Technozen, Glacier, Rétro).
