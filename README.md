@@ -65,6 +65,8 @@ goes in. Games are made for **Web 2D (Phaser)**, **Web 3D (three.js)**, **Roblox
 - **3D models:** the check refuses flipped faces and wrong shading before you see the model.
 - **Faster teams:** fewer needless waits, tests not replayed for nothing, and “done” means the whole request, tried in the game.
 
+**0.2.13:** game tests no longer wait behind another heavy job, and Kwestfall says in the conversation when requests are queued.
+
 *macOS first; Windows stays on 0.2.9 for a few days.*
 
 ## New in 0.2.11
